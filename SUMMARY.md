@@ -2,5 +2,5 @@
 
 * [Introduction](README.md)
 * [PHP](php.md)
-* JS
+* [JS](js.md)
 
