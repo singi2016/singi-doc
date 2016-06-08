@@ -2,6 +2,6 @@
 
 * [Introduction](README.md)
 * [PHP](php.md)
-   * autoload
+   * [autoload](PHP/autoload.md)
 * [JS](js.md)
 
