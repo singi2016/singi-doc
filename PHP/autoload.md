@@ -33,3 +33,6 @@ spl_autoload_register('classLoader');
 //引入myphp
 vendor('myphp.autoload');
 ```
+
+##参考
+* 来自七牛云PHP-SDK的自动引入。
