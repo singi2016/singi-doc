@@ -38,6 +38,6 @@ sudo pecl install mongodb（如果报错尝试：sudo ./pecl install mongodb）
 5. 重启MAMP,打印phpinfo看到mongo或mongodb扩展安装的信息，就安装成功了。
 
 
-> 方法来自[这里](http://lukepeters.me/blog/setting-up-mongodb-with-php-and-mamp)
+> 以上方法来自[这里](http://lukepeters.me/blog/setting-up-mongodb-with-php-and-mamp)
 
 
