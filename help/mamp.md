@@ -22,12 +22,10 @@ export PATH=/Applications/MAMP/bin/php/php5.6.7/bin:$PATH
 然后执行
 ```cmd
 cd /Applications/MAMP/bin/php/php5.x.x/include/php
-```
-执行
-```cmd
 ./configure
 ```
 3. 执行
  ```cmd
 cd /Applications/MAMP/bin/php/php5.x.x/bin
+sudo pecl install mongo（如果报错尝试：sudo ./pecl install mongo）
 ```
