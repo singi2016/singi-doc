@@ -17,14 +17,13 @@ export PATH=/Applications/MAMP/bin/php/php5.6.7/bin:$PATH
 cd /Applications/MAMP/bin/php/php5.x.x/bin
 ```
 
-2. 因为MAMP默认删除了PHP的include文件夹，在
+2. 去下载对应的**[php包](http://www.php.net/downloads.php )**，将文件夹里面的所有文件复制到下面的路径。
 ```cmd
-cd /Applications/MAMP/bin/php/php5.x.x
+/Applications/MAMP/bin/php/php5.x.x/include/php
+(如果/include/php不存在，就手动创建include和php文件夹)
 ```
-目录下手动创建（`/include/php`），然后进入
+然后进入
 ```cmd
 cd /Applications/MAMP/bin/php/php5.x.x/include/php
 ```
-去下载**[php包](http://www.php.net/downloads.php )**，将文件夹里面的所有文件复制到上面的路径下。
-
 3. 
