@@ -5,5 +5,5 @@
    * [autoload](PHP/autoload.md)
 * [JS](js.md)
 * [help](help.md)
-   * mamp
+   * [mamp](help/mamp.md)
 
