@@ -7,22 +7,19 @@
 ```cmd
 export PATH=/Applications/MAMP/bin/php/php5.x.x/bin:$PATH
 ```
- **注意:**把php5.x.x中的x换成具体的数字，例如5.6.7，这时整条命令如下：
+ **注意:**把php5.x.x中的x换成具体的数字（在MAMP存在的版本），例如5.6.7，这时整条命令如下：
 
  ```cmd
 export PATH=/Applications/MAMP/bin/php/php5.6.7/bin:$PATH
 ```
-设置完成之后，进入到这个目录：
- ```cmd
-cd /Applications/MAMP/bin/php/php5.x.x/bin
-```
+
 
 2. 去下载对应的**[php包](http://www.php.net/downloads.php )**，将文件夹里面的所有文件复制到下面的路径中。
 ```cmd
 /Applications/MAMP/bin/php/php5.x.x/include/php
 (如果/include/php不存在，就手动创建include和php文件夹)
 ```
-然后进入
+然后执行
 ```cmd
 cd /Applications/MAMP/bin/php/php5.x.x/include/php
 ```
@@ -30,4 +27,7 @@ cd /Applications/MAMP/bin/php/php5.x.x/include/php
 ```cmd
 ./configure
 ```
-3. 
+3. 执行
+ ```cmd
+cd /Applications/MAMP/bin/php/php5.x.x/bin
+```
