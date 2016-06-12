@@ -26,4 +26,8 @@ cd /Applications/MAMP/bin/php/php5.x.x/bin
 ```cmd
 cd /Applications/MAMP/bin/php/php5.x.x/include/php
 ```
+执行
+```cmd
+./configure
+```
 3. 
