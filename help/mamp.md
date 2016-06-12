@@ -13,19 +13,20 @@ export PATH=/Applications/MAMP/bin/php/php5.x.x/bin:$PATH
 export PATH=/Applications/MAMP/bin/php/php5.6.7/bin:$PATH
 ```
 
-
 2. 去下载对应的**[php包](http://www.php.net/downloads.php )**，将文件夹里面的所有文件复制到下面的路径中。
-```cmd
-/Applications/MAMP/bin/php/php5.x.x/include/php
-(如果/include/php不存在，就手动创建include和php文件夹)
-```
-然后执行
-```cmd
-cd /Applications/MAMP/bin/php/php5.x.x/include/php
-./configure
-```
+  ```cmd
+  /Applications/MAMP/bin/php/php5.x.x/include/php(如果/include/php不存在，就手动创建include和php文件夹)
+  ```
+  然后执行
+  ```cmd
+  cd /Applications/MAMP/bin/php/php5.x.x/include/php
+  ./configure
+  ```
+  
 3. 执行
  ```cmd
 cd /Applications/MAMP/bin/php/php5.x.x/bin
 sudo pecl install mongo（如果报错尝试：sudo ./pecl install mongo）
 ```
+
+4. 
