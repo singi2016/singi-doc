@@ -54,11 +54,10 @@ vendor('phpmailer.PHPMailerAutoload');
 
 /**
  * 发送邮件
- * @param $subject
- * @param $body
- * @param $from_mail
- * @return string
- * @throws phpmailerException
+ * @param $subject //邮件主题
+ * @param $body //邮件内容
+ * @param $to_mail //发送到
+ * @return bool
  */
 function send_mail($subject,$body,$to_mail){
     date_default_timezone_set('PRC');//设置时区
@@ -67,7 +66,7 @@ function send_mail($subject,$body,$to_mail){
         $to_mail = "787575327@qq.com";
     }
     $mail = new \PHPMailer();
-//    $mail->SMTPDebug = 3;                               // 调试模式
+//    $mail->SMTPDebug = 3;                               // 调试模式，有错误的情况下最好打开。
 
     $mail->isSMTP();                                      // 使用 SMTP
     $mail->Host = 'smtp.qq.com';  // 使用的 SMTP 服务器
