@@ -98,3 +98,5 @@ function send_mail($subject,$body,$to_mail){
     }
 }
 ```
+###5. 调用函数，发送邮件
+在控制器中直接调用**send_mail($subject,$body,$to_mail)**函数，就可以成功向指定的邮箱发送邮件了。
