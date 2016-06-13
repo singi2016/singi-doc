@@ -5,7 +5,7 @@
    * [autoload](PHP/autoload.md)
    * [phpmailer](PHP/phpmailer.md)
    * [七牛云](PHP/qiniuyun.md)
-   * [TP框架引入第三方包](PHP/tpkuang_jia_yin_ru_di_san_fang_bao.md)
+   * [thinkphh3.2.3引入第三方包](PHP/tpkuang_jia_yin_ru_di_san_fang_bao.md)
 * [JS](js.md)
 * [help](help.md)
    * [mamp](help/mamp.md)
