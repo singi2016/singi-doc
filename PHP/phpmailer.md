@@ -82,8 +82,8 @@ function send_mail($subject,$body,$to_mail){
 //    $mail->addCC('cc@example.com');
 //    $mail->addBCC('bcc@example.com');
 
-//    $mail->addAttachment('./admin.php');         // 添加附件
-//    $mail->addAttachment('./1464581020.jpg', 'new.jpg');    // 可以给附件设置别名
+//    $mail->addAttachment('./admin.php');         // 添加附件，附件地址是服务器上的地址
+//    $mail->addAttachment('./1464581020.jpg', 'new.jpg'); // 可以给附件设置别名，附件地址是服务器上的地址
     $mail->isHTML(true);                                  // 发送 HTML格式的内容
 
     $mail->Subject = $subject;//邮件主题
