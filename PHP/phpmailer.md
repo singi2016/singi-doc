@@ -70,7 +70,7 @@ function send_mail($subject,$body,$to_mail){
 
     $mail->isSMTP();                                      // 使用 SMTP
     $mail->Host = 'smtp.qq.com';                          // 使用的 SMTP 服务器
-    $mail->SMTPAuth = true;                               // 使用 SMTP 权鉴
+    $mail->SMTPAuth = true;                               // 使用 SMTP 权鉴，必须
     $mail->Username = 'qinyi711@qq.com';                 // SMTP username
     $mail->Password = 'foirqksssgisbffc';                // SMTP password,使用qq的话,是授权码,不是邮箱登录密码!!!
     $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted 加密
