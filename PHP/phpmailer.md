@@ -44,4 +44,56 @@ if(!$mail->send()) {
 }
 ```
 ###3. 准备发送邮件的服务器，这里选择QQ STMP 服务器。
-#####3.1 登录QQ邮箱，设置->账户->POP3/IMAP/SMTP/Exchange/CardDAV/CalDAV服务，这一选项下，开通POP3/SMTP服务。需要发送短信生成授权码（0.1元/条），然后记住生成的授权码，后面需要用到。
+登录QQ邮箱，设置->账户->POP3/IMAP/SMTP/Exchange/CardDAV/CalDAV服务，这一选项下，开通POP3/SMTP服务。需要发送短信生成授权码（0.1元/条），然后记住生成的授权码，后面需要用到。
+###4. 编写自己的邮件发送函数
+我使用的是thinkphp3.2.3，把phpmailer包下载下来，然后放在到Thinkphp/Library/Vendor/目录下，这时的路径为Thinkphp/Library/Vendor/phpmailer,然后在函数前面引入phpmailer，入代码所示，即可正常使用phpmailer。
+```php
+vendor('phpmailer.PHPMailerAutoload');
+
+/**
+ * 发送邮件
+ * @param $subject
+ * @param $body
+ * @param $from_mail
+ * @return string
+ * @throws phpmailerException
+ */
+function send_mail($subject,$body,$to_mail){
+    date_default_timezone_set('PRC');//设置时区
+    //验证邮箱格式
+    if (!preg_match("/([\w\-]+\@[\w\-]+\.[\w\-]+)/",$to_mail)) {
+        $to_mail = "787575327@qq.com";
+    }
+    $mail = new \PHPMailer();
+//    $mail->SMTPDebug = 3;                               // 调试模式
+
+    $mail->isSMTP();                                      // 使用 SMTP
+    $mail->Host = 'smtp.qq.com';  // 使用的 SMTP 服务器
+    $mail->SMTPAuth = true;                               // 使用 SMTP 权鉴
+    $mail->Username = 'qinyi711@qq.com';                 // SMTP username
+    $mail->Password = 'foirqksssgisbffc';                // SMTP password,使用qq的话,是授权码,不是邮箱登录密码!!!
+    $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted 加密
+    $mail->Port = 465;                                    // TCP port to connect to 链接端口:465或587
+
+    $mail->setFrom('qinyi711@qq.com', 'Singi');//发送邮箱地址
+    $mail->addAddress($to_mail, 'Singi');     // 接受邮箱地址,可以添加多个
+//    $mail->addReplyTo('info@example.com', 'Information');
+//    $mail->addCC('cc@example.com');
+//    $mail->addBCC('bcc@example.com');
+
+//    $mail->addAttachment('./admin.php');         // 添加附件
+//    $mail->addAttachment('./1464581020.jpg', 'new.jpg');    // 可以给附件设置别名
+    $mail->isHTML(true);                                  // 发送 HTML格式的内容
+
+    $mail->Subject = $subject;//邮件主题
+    $mail->Body    = '<p>'.$body.'</p>';//邮件内容
+//  $mail->AltBody = 'This is the body in plain text for non-HTML mail clients'; //纯文本邮件内容
+
+    if(!$mail->send()) {
+//        return $mail->ErrorInfo;
+        return false;
+    } else {
+        return true;
+    }
+}
+```
