@@ -91,7 +91,7 @@ function send_mail($subject,$body,$to_mail){
 //  $mail->AltBody = 'This is the body in plain text for non-HTML mail clients'; //纯文本邮件内容
 
     if(!$mail->send()) {
-//        return $mail->ErrorInfo;//调试的时候返回错误信息，这里测试成功了，就不返回了。
+//        return $mail->ErrorInfo;//调试的时候返回错误信息，我这里测试成功了，就不返回了。
         return false;
     } else {
         return true;
