@@ -246,14 +246,4 @@
         $authUrl = $auth->privateDownloadUrl($baseUrl);//下载链接有效期3600秒
         return $authUrl;
     }
-
-    function qFile(){
-        // 构建鉴权对象
-        $auth = $this->getAuthQiniu();
-        // 要上传的空间
-        $bucket = C('bucket');
-        // 生成上传 Token
-        $token = $auth->uploadToken($bucket);
-        $this->ajaxReturn(array('code'=>200,'uptoken'=>$token),'json');
-    }
 ```
