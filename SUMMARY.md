@@ -4,7 +4,7 @@
 * [PHP](php.md)
    * [autoload](PHP/autoload.md)
    * [phpmailer](PHP/phpmailer.md)
-   * [qiniuyun](PHP/qiniuyun.md)
+   * [七牛云](PHP/qiniuyun.md)
 * [JS](js.md)
 * [help](help.md)
    * [mamp](help/mamp.md)
