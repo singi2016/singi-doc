@@ -56,14 +56,14 @@ vendor('phpmailer.PHPMailerAutoload');
  * 发送邮件
  * @param $subject //邮件主题
  * @param $body //邮件内容
- * @param $to_mail //发送到
+ * @param $to_mail //发送到邮箱地址
  * @return bool
  */
 function send_mail($subject,$body,$to_mail){
     date_default_timezone_set('PRC');//设置时区
     //验证邮箱格式
     if (!preg_match("/([\w\-]+\@[\w\-]+\.[\w\-]+)/",$to_mail)) {
-        $to_mail = "787575327@qq.com";
+        $to_mail = "发送到邮箱地址";
     }
     $mail = new \PHPMailer();
 //    $mail->SMTPDebug = 3;                        // 调试模式，有错误的情况下最好打开，便于查出错误
@@ -71,10 +71,10 @@ function send_mail($subject,$body,$to_mail){
     $mail->isSMTP();                                      // 使用 SMTP
     $mail->Host = 'smtp.qq.com';                          // 使用的 SMTP 服务器
     $mail->SMTPAuth = true;                               // 使用 SMTP 权鉴，必须
-    $mail->Username = 'qinyi711@qq.com';                 // SMTP username
-    $mail->Password = 'foirqksssgisbffc';                // SMTP password,使用qq的话,是授权码,不是邮箱登录密码!!!
-    $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted 加密
-    $mail->Port = 465;                                    // TCP port to connect to 链接端口:465或587
+    $mail->Username = '发送邮件地址';                 // SMTP username
+    $mail->Password = '发送邮件QQ授权码';    // SMTP password,使用qq的话,是授权码,不是邮箱登录密码!!!
+    $mail->SMTPSecure = 'ssl';             // Enable TLS encryption, `ssl` also accepted 加密
+    $mail->Port = 465;                     // TCP port to connect to 链接端口:465或587
 
     $mail->setFrom('qinyi711@qq.com', 'Singi');//发送邮箱地址
     $mail->addAddress($to_mail, 'Singi');     // 接受邮箱地址,可以添加多个
