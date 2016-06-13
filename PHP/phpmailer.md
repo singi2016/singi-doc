@@ -47,6 +47,8 @@ if(!$mail->send()) {
 登录QQ邮箱，设置->账户->POP3/IMAP/SMTP/Exchange/CardDAV/CalDAV服务，这一选项下，开通POP3/SMTP服务。需要发送短信生成授权码（0.1元/条），然后记住生成的授权码，后面需要用到。
 ###4. 编写自己的邮件发送函数
 我使用的是thinkphp3.2.3，把phpmailer包下载下来，然后放在到Thinkphp/Library/Vendor/目录下，这时的路径为Thinkphp/Library/Vendor/phpmailer,然后在函数前面引入phpmailer，入代码所示，即可正常使用phpmailer。
+> 注意:自动加载文件是引入PHPMailerAutoload.php，不是autoload.php
+
 ```php
 vendor('phpmailer.PHPMailerAutoload');
 
