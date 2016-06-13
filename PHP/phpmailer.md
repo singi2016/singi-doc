@@ -69,7 +69,7 @@ function send_mail($subject,$body,$to_mail){
 //    $mail->SMTPDebug = 3;                        // 调试模式，有错误的情况下最好打开，便于查出错误
 
     $mail->isSMTP();                                      // 使用 SMTP
-    $mail->Host = 'smtp.qq.com';                          // 使用的 SMTP 服务器
+    $mail->Host = 'smtp.qq.com';                          // 使用 QQ的 SMTP 服务器
     $mail->SMTPAuth = true;                               // 使用 SMTP 权鉴，必须
     $mail->Username = '发送邮件地址';                 // SMTP username
     $mail->Password = '发送邮件QQ授权码';    // SMTP password,使用qq的话,是授权码,不是邮箱登录密码!!!
