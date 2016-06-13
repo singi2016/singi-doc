@@ -11,7 +11,9 @@
 ```
 ###3. 改写SDK
 ```php
-/**
+  class FileController extends Controller
+{ 
+    /**
      * 获得七牛云权鉴
      */
     public function getAuthQiniu()
@@ -246,4 +248,5 @@
         $authUrl = $auth->privateDownloadUrl($baseUrl);//下载链接有效期3600秒
         return $authUrl;
     }
+}
 ```
