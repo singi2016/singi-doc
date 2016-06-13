@@ -9,3 +9,4 @@
     'domain' => 'o7atl50ri.bkt.clouddn.com',//域名，这里是七牛云提供的测试域名
     'bucket' => 'XX',//'<空间名称>',
 ```
+###3. 改写SDK
