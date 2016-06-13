@@ -66,7 +66,7 @@ function send_mail($subject,$body,$to_mail){
         $to_mail = "787575327@qq.com";
     }
     $mail = new \PHPMailer();
-//    $mail->SMTPDebug = 3;                               // 调试模式，有错误的情况下最好打开，便于查出错误
+//    $mail->SMTPDebug = 3;                        // 调试模式，有错误的情况下最好打开，便于查出错误
 
     $mail->isSMTP();                                      // 使用 SMTP
     $mail->Host = 'smtp.qq.com';  // 使用的 SMTP 服务器
