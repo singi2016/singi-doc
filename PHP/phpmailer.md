@@ -66,25 +66,24 @@ function send_mail($subject,$body,$to_mail){
         $to_mail = "发送到邮箱地址";
     }
     $mail = new \PHPMailer();
-//    $mail->SMTPDebug = 3;                        // 调试模式，有错误的情况下最好打开，便于查出错误
-
-    $mail->isSMTP();                                      // 使用 SMTP
-    $mail->Host = 'smtp.qq.com';                          // 使用 QQ的 SMTP 服务器
-    $mail->SMTPAuth = true;                               // 使用 SMTP 权鉴，必须
-    $mail->Username = '发送邮件地址';                 // SMTP username
+//  $mail->SMTPDebug = 3;                // 调试模式，有错误的情况下最好打开，便于查出错误
+    $mail->isSMTP();                       // 使用 SMTP
+    $mail->Host = 'smtp.qq.com';           // 使用 QQ的 SMTP 服务器
+    $mail->SMTPAuth = true;                // 使用 SMTP 权鉴，必须
+    $mail->Username = '发送邮件地址';        // SMTP username
     $mail->Password = '发送邮件QQ授权码';    // SMTP password,使用qq的话,是授权码,不是邮箱登录密码!!!
     $mail->SMTPSecure = 'ssl';             // Enable TLS encryption, `ssl` also accepted 加密
     $mail->Port = 465;                     // TCP port to connect to 链接端口:465或587
 
     $mail->setFrom('发送邮箱地址', '别名');//发送邮箱地址，第二个参数是别名
     $mail->addAddress($to_mail, '别名');     // 接受邮箱地址,可以添加多个
-//    $mail->addReplyTo('info@example.com', 'Information');
-//    $mail->addCC('cc@example.com');
-//    $mail->addBCC('bcc@example.com');
+//  $mail->addReplyTo('info@example.com', 'Information');
+//  $mail->addCC('cc@example.com');
+//  $mail->addBCC('bcc@example.com');
 
-//    $mail->addAttachment('./admin.php');         // 添加附件，附件地址是服务器上的地址
-//    $mail->addAttachment('./1464581020.jpg', 'new.jpg'); // 可以给附件设置别名，附件地址是服务器上的地址
-    $mail->isHTML(true);                                  // 发送 HTML格式的内容
+//  $mail->addAttachment('./admin.php');         // 添加附件，附件地址是服务器上的地址
+//  $mail->addAttachment('./1464581020.jpg', 'new.jpg'); // 可以给附件设置别名，附件地址是服务器上的地址
+    $mail->isHTML(true);                         // 发送 HTML格式的内容
 
     $mail->Subject = $subject;//邮件主题
     $mail->Body    = '<p>'.$body.'</p>';//邮件内容
