@@ -4,7 +4,7 @@
 * [js](js.md)
    * [date](js/date.md)
    * [str](js/str.md)
-   * function
+   * [function](js/function.md)
 * [php](php.md)
    * [function](php/function.md)
        * [array](php/function/array.md)
