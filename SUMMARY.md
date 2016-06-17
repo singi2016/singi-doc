@@ -6,8 +6,8 @@
    * [phpmailer](php/phpmailer.md)
    * [七牛云](php/qiniuyun.md)
    * [thinkphp3.2.3引入第三方包](php/tp.md)
-   * [array](php/function/array.md)
    * [function](php/function.md)
+       * [array](php/function/array.md)
        * d
 * [bootstrap](bootstrap.md)
    * [bootstrap-table](bootstrap/bootstrap-table.md)
