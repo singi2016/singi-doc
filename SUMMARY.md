@@ -5,10 +5,10 @@
    * [autoload](php/autoload.md)
    * [phpmailer](php/phpmailer.md)
    * [七牛云](php/qiniuyun.md)
-   * [thinkphp3.2.3引入第三方包](php/tp.md)
    * [function](php/function.md)
        * [array](php/function/array.md)
    * [tp3](php/tp3.md)
+       * [thinkphp3.2.3引入第三方包](php/tp.md)
        * index
 * [bootstrap](bootstrap.md)
    * [bootstrap-table](bootstrap/bootstrap-table.md)
