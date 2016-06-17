@@ -1,7 +1,7 @@
 # Summary
 
 * [简介](README.md)
-* [PHP](php.md)
+* [php](php.md)
    * [autoload](PHP/autoload.md)
    * [phpmailer](PHP/phpmailer.md)
    * [七牛云](PHP/qiniuyun.md)
