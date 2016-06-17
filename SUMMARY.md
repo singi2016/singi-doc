@@ -8,7 +8,6 @@
    * [thinkphp3.2.3引入第三方包](php/tp.md)
    * [function](php/function.md)
        * [array](php/function/array.md)
-       * d
 * [bootstrap](bootstrap.md)
    * [bootstrap-table](bootstrap/bootstrap-table.md)
 * [help](help.md)
