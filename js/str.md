@@ -1,6 +1,8 @@
 # str
-##str 扩展
-###
+
+###除去字符串头尾部特定字符
+>[来自](http://blog.csdn.net/educast/article/details/7654919)
+
 ```js
 //除去字符串头部特定字符
 String.prototype.trimStart = function(trimStr){  
