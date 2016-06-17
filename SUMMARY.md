@@ -3,7 +3,7 @@
 * [简介](README.md)
 * [js](js.md)
    * [str](js/str.md)
-       * date
+       * [date](js/date.md)
 * [php](php.md)
    * [function](php/function.md)
        * [array](php/function/array.md)
