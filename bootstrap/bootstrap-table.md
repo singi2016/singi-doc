@@ -10,69 +10,35 @@
 ###js
 ```javascript
 $('#table').bootstrapTable({
-                url:"{:U('course/selectCourses')}",
+                url:"{:U('course/selectCourses')}",//请求数据url
                 queryParams: function () {
                     return {
-                        uid:uid,
+                        uid:uid,//自定义的数据,会跟在url后面传到服务器
                     };
                 },
-                pagination: true,
-//                pageNumber:1,
-//                pageSize:5,
+                pagination: true,//分页
                 pageList: [5, 10, 20, 50],//分页步进值
-                search: true,
-//                sidePagination:"server",
-//                dataType: "json",//期待返回数据类型
-//                method: "get",//请求方式
-//                searchAlign: "left",//查询框对齐方式
-//                queryParamsType: "limit",//查询参数组织方式
-//                showRefresh: true,//刷新按钮
-//                showColumns: true,//列选择按钮
-//                showPaginationSwitch: true,//
-//                showHeader:'true',
-//                showFooter:'true',
-//                locale: "zh-CN",//中文支持,
-
+                search: true,//显示搜索框
+                //表格的列
                 columns: [
                     {
-                        field: 'id',
-                        title: 'id',
-                        visible: false
+                        field: 'id',//域值
+                        title: 'id',//标题
+                        visible: false//false表示不显示
                     },
                     {
                         field: 'name',
                         title: '课程名',
-                        align: 'center',
-                        width: '',
-                        valign: 'middle',
-                        sortable: true
+                        align: 'center',//水平居中对齐
+                        width: '',//列宽
+                        valign: 'middle',//垂直居中对齐
+                        sortable: true//启用排序
                     }, {
                         field: 'courseMinutes',
                         title: '课时长/分钟',
                         align: 'center',
                         width: '',
                         valign: 'top',
-                        sortable: true
-                    }, {
-                        field: 'people',
-                        title: '课程总人数/人',
-                        align: 'center',
-                        width: '',
-                        valign: 'middle',
-                        sortable: true
-                    }, {
-                        field: 'coach',
-                        title: '教练',
-                        align: 'center',
-                        width: '',
-                        valign: 'middle',
-                        sortable: true
-                    }, {
-                        field: 'cost',
-                        title: '教练费用/元',
-                        align: 'center',
-                        width: '',
-                        valign: 'middle',
                         sortable: true
                     }],
                 //单击某行时，执行函数，row为当前行的数据
