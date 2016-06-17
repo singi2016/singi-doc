@@ -5,6 +5,10 @@
 
 ###html
 ```html
+<link href="path/css/bootstrap-table.min.css" rel="stylesheet">
+<script src="path/js/bootstrap-table.min.js"></script>
+<script src="path/js/bootstrap-table-zh-CN.min.js"></script>
+
 <table id="table"></table>
 ```
 ###js
@@ -47,3 +51,4 @@ $('#table').bootstrapTable({
                 },
             });
 ```
+###php(服务器端)
