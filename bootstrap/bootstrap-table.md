@@ -63,3 +63,5 @@ $('#table').bootstrapTable({
          $res = M('course')->field('id,name,courseMinutes')->where($map)->limit($offset,$per_page)->select();
          $this->ajaxReturn($res, 'json');
 ```
+
+>###服务器返回的json值需要跟表格定义的列的域值一致。
