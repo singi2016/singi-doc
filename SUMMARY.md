@@ -7,7 +7,7 @@
    * [七牛云](php/qiniuyun.md)
    * [thinkphp3.2.3引入第三方包](php/tpkuang_jia_yin_ru_di_san_fang_bao.md)
 * [bootstrap](bootstrap.md)
-   * bootstrap-table
+   * [bootstrap-table](bootstrap/bootstrap-table.md)
 * [help](help.md)
    * [mamp](help/mamp.md)
 
