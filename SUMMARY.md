@@ -9,6 +9,7 @@
    * [function](php/function.md)
        * [array](php/function/array.md)
    * [tp3](php/tp3.md)
+       * index
 * [bootstrap](bootstrap.md)
    * [bootstrap-table](bootstrap/bootstrap-table.md)
 * [help](help.md)
