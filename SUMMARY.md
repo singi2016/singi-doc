@@ -2,6 +2,7 @@
 
 * [简介](README.md)
 * [js](js.md)
+   * [date](js/date.md)
    * [str](js/str.md)
        * [date](js/date.md)
 * [php](php.md)
