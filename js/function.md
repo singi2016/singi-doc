@@ -1,6 +1,6 @@
 # function
 
-##HTML实体 转换为 html字符串
+###HTML实体 转换为 html字符串
 ```js
         //HTML实体 转换为 html字符串 htmlspecialchars_decode
         function htmlspecialchars_decode(str) {
