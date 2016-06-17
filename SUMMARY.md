@@ -2,6 +2,7 @@
 
 * [简介](README.md)
 * [js](js.md)
+   * str
 * [php](php.md)
    * [function](php/function.md)
        * [array](php/function/array.md)
