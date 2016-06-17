@@ -1,7 +1,7 @@
 # Summary
 
 * [简介](README.md)
-   * js
+* js
 * [php](php.md)
    * [function](php/function.md)
        * [array](php/function/array.md)
