@@ -1,7 +1,7 @@
 #[Bootstrap Table](http://issues.wenzhixin.net.cn/bootstrap-table/index.html)
 >[Github](https://github.com/wenzhixin/bootstrap-table-examples/blob/master/welcome.html) [中文文档](http://bootstrap-table.wenzhixin.net.cn/zh-cn/documentation/)
 
-##一个简单的例子demo（PHP框架thinkphp3.2.3）
+##一个简单的例子demo（基于thinkphp3.2.3）
 
 ###html
 ```html
