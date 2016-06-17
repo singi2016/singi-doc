@@ -52,3 +52,14 @@ $('#table').bootstrapTable({
             });
 ```
 ###php(服务器端)
+```php
+         $uid = I('get.uid');
+         $per_page = I('get.per_page');
+         $page = I('get.page');
+         $offset = ($page-1)*$per_page;
+         $today = date('Y-m-d H:i:s',time());//当前时间
+         $map['courseDate'] = array('gt',$today);//获取大于当前时间的数据
+         $map['uid'] = $uid;
+         $res = M('course')->field('id,name,coach,cost,courseMinutes,people')->where($map)->limit($offset,$per_page)->select();
+         $this->ajaxReturn($res, 'json');
+```
