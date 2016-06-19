@@ -30,7 +30,27 @@ function dateArr(start, end, week, time) {
 
 		var x = week.search(date.getDay());
 		if (x != -1) {
-			arr.push('week:' + week.charAt(x) + ' ' + date.getFullYear() + '-' + (date.getMonth() + 1) + '-' + date.getDate() + ' ' + time);
+			if(week.charAt(x)==1){
+				arr.push(date.getFullYear() + '-' + (date.getMonth() + 1) + '-' + date.getDate() + ' ' + time+' '+'星期一' );
+			}
+			if(week.charAt(x)==2){
+				arr.push(date.getFullYear() + '-' + (date.getMonth() + 1) + '-' + date.getDate() + ' ' + time+' '+'星期二');
+			}
+			if(week.charAt(x)==3){
+				arr.push(date.getFullYear() + '-' + (date.getMonth() + 1) + '-' + date.getDate() + ' ' + time+' '+'星期三' );
+			}
+			if(week.charAt(x)==4){
+				arr.push(date.getFullYear() + '-' + (date.getMonth() + 1) + '-' + date.getDate() + ' ' + time+' '+'星期四');
+			}
+			if(week.charAt(x)==5){
+				arr.push(date.getFullYear() + '-' + (date.getMonth() + 1) + '-' + date.getDate() + ' ' + time+' '+'星期五');
+			}
+			if(week.charAt(x)==6){
+				arr.push(date.getFullYear() + '-' + (date.getMonth() + 1) + '-' + date.getDate() + ' ' + time+' '+'星期六');
+			}
+			if(week.charAt(x)==0){
+				arr.push(date.getFullYear() + '-' + (date.getMonth() + 1) + '-' + date.getDate() + ' ' + time+' '+'星期日' );
+			}
 		}
 	}
 	return arr;
