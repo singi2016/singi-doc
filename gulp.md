@@ -16,7 +16,7 @@ gulp.task('webserver', function() {
   gulp.src('./')//表示根目录，根据需要自行修改
     .pipe(webserver({
       livereload: true,//开启自动刷新
-      directoryListing:true,//目录
+      directoryListing:true,//显示目录
       open: true//自动打开默认浏览器
     }));
 });
