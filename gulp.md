@@ -3,9 +3,8 @@
 ##实现网页自动刷新
 
 ##插件：
-* gulp 
-* gulp-webserver 本地服务器
-* gulp-livereload 网页自动刷新
+* [gulp](http://www.gulpjs.com.cn/) 
+* [gulp-webserver](https://www.npmjs.com/package/gulp-webserver) 本地服务器
 
 ##demo 
 项目根目录下，新建` gulpfile.js`文件,使用下面的代码
