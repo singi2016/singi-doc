@@ -3,7 +3,7 @@
 ##实现网页自动刷新
 
 ##插件：
-* [gulp](http://www.gulpjs.com.cn/) 
+* [gulp](http://www.gulpjs.com.cn/) 自动化构建工具
 * [gulp-webserver](https://www.npmjs.com/package/gulp-webserver) 本地服务器
 
 ##demo 
