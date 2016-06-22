@@ -24,7 +24,7 @@ gulp.task('webserver', function() {
 
 // 监听任务
 gulp.task('watch',function(){
-  gulp.watch( '*.html') // 监听根目录下所有.html文件
+  gulp.watch( '*.*') // 监听根目录下所有文件
 });
 
 gulp.task('default', ['webserver','watch']);
