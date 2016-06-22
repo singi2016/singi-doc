@@ -30,7 +30,7 @@ gulp.task('default', ['webserver','watch']);
 ```
 
 ##运行
-进入到gulpfile.js文件目录下，命令行运行，即可自动打开浏览器。
+进入到`gulpfile.js`文件目录下，命令行运行，即可自动打开浏览器，默认打开根目录下的`index.html`。
 ```cmd
 > gulp
 ```
