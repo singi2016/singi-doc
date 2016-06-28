@@ -14,7 +14,7 @@
        * [thinkphp3.2.3引入第三方包](php/tp.md)
        * [七牛云](php/qiniuyun.md)
        * [tips](php/tp3/tips.md)
-       * rbac
+       * [rbac](php/tp3/rbac.md)
 * [bootstrap](bootstrap.md)
    * [bootstrap-table](bootstrap/bootstrap-table.md)
 * [help](help.md)
