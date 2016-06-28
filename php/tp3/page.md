@@ -21,6 +21,7 @@
         return $Page;
     }
 ```
+###查询数据
 ```php
 $count = M('admin')->field('id,username,trueName,email,tel')->where('status=1')->count();
 $page = $this->page($count,5);
