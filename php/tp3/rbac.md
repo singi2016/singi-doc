@@ -156,7 +156,7 @@ function superAdmin(){
         $this->display();
     }
 ```
-> 格式化后数据
+### 格式化后数据
 
 ```php
 array(4) {
