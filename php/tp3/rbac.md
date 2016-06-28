@@ -119,7 +119,7 @@ SET FOREIGN_KEY_CHECKS = 1;
 ##获取角色所有权限方法
 ```php
 function superAdmin(){
-        $where['role_id'] = 1; //超级管理员
+        $where['role_id'] = 1; //1超级管理员 2店长 3员工
         $rule_ids = M('role_rule')->field('rule_id')->where($where)->select();
         $rule_id_str = implode(',',array_column($rule_ids,'rule_id'));
 
