@@ -156,5 +156,103 @@ function superAdmin(){
         $this->display();
     }
 ```
+> 格式化后数据
 
+```php
+array(4) {
+  [0] => array(5) {
+    ["id"] => string(1) "2"
+    ["name"] => string(12) "用户管理"
+    ["url"] => string(0) ""
+    ["pid"] => string(1) "0"
+    ["children"] => array(4) {
+      [0] => array(4) {
+        ["id"] => string(1) "3"
+        ["name"] => string(6) "用户"
+        ["url"] => string(18) "Admin/Member/index"
+        ["pid"] => string(1) "2"
+      }
+      [1] => array(4) {
+        ["id"] => string(1) "4"
+        ["name"] => string(12) "添加会员"
+        ["url"] => string(16) "Admin/Member/add"
+        ["pid"] => string(1) "2"
+      }
+      [2] => array(4) {
+        ["id"] => string(1) "5"
+        ["name"] => string(12) "会员列表"
+        ["url"] => string(23) "Admin/Member/MemberList"
+        ["pid"] => string(1) "2"
+      }
+      [3] => array(4) {
+        ["id"] => string(1) "6"
+        ["name"] => string(12) "删除会员"
+        ["url"] => string(16) "Admin/Member/del"
+        ["pid"] => string(1) "2"
+      }
+    }
+  }
+  [1] => array(5) {
+    ["id"] => string(1) "7"
+    ["name"] => string(12) "场馆管理"
+    ["url"] => string(0) ""
+    ["pid"] => string(1) "0"
+    ["children"] => array(2) {
+      [0] => array(4) {
+        ["id"] => string(1) "8"
+        ["name"] => string(12) "基本信息"
+        ["url"] => string(24) "Admin/Studio/studioIndex"
+        ["pid"] => string(1) "7"
+      }
+      [1] => array(4) {
+        ["id"] => string(1) "9"
+        ["name"] => string(12) "场馆公告"
+        ["url"] => string(24) "Admin/Studio/noticeIndex"
+        ["pid"] => string(1) "7"
+      }
+    }
+  }
+  [2] => array(5) {
+    ["id"] => string(2) "10"
+    ["name"] => string(12) "课程管理"
+    ["url"] => string(0) ""
+    ["pid"] => string(1) "0"
+    ["children"] => array(1) {
+      [0] => array(4) {
+        ["id"] => string(2) "12"
+        ["name"] => string(12) "课程日历"
+        ["url"] => string(21) "Admin/course/calendar"
+        ["pid"] => string(2) "10"
+      }
+    }
+  }
+  [3] => array(5) {
+    ["id"] => string(1) "1"
+    ["name"] => string(12) "签到管理"
+    ["url"] => string(0) ""
+    ["pid"] => string(1) "0"
+    ["children"] => array(1) {
+      [0] => array(4) {
+        ["id"] => string(2) "13"
+        ["name"] => string(6) "签到"
+        ["url"] => string(17) "Admin/SignIn/sign"
+        ["pid"] => string(1) "1"
+      }
+    }
+  }
+}
+```
+###html页面渲染
+```html
+<ul>
+        <volist name="data" id="vo">
+            <li>{$vo.name}</li>
+            <ul>
+                <volist name='vo.children' id="vo2">
+                    <li>{$vo2.name}</li>
+                </volist>
+            </ul>
+        </volist>
+    </ul>
+```
 
