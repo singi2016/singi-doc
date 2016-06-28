@@ -2,11 +2,8 @@
 
 ###分页方法
 ```php
-/**
-     * 后台分页
-     *
-     */
-    protected function page($total_size = 1, $page_size = 0, $current_page = 1, $listRows = 2, $pageParam = 'page', $pageLink = '', $static = FALSE) {
+
+protected function page($total_size = 1, $page_size = 0, $current_page = 1, $listRows = 2, $pageParam = 'page', $pageLink = '', $static = FALSE) {
         if ($page_size == 0) {
             $page_size = C("PAGE_LISTROWS");
         }
