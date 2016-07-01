@@ -4,7 +4,8 @@
 * phpstorm
 
 ##mysql
-* navicat
+* navicat 数据库管理
+* workbench 数据库设计
 
 ##js,html,css
 * sublime 
