@@ -22,5 +22,5 @@
    * [mamp](help/mamp.md)
 * [gulp](gulp.md)
 * [骑行](ride.md)
-* [soft](soft.md)
+* [各种软件简介](soft.md)
 
