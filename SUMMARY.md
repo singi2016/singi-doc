@@ -21,5 +21,5 @@
 * [help](help.md)
    * [mamp](help/mamp.md)
 * [gulp](gulp.md)
-* 骑行
+* [骑行](ride.md)
 
