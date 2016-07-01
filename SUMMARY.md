@@ -22,4 +22,5 @@
    * [mamp](help/mamp.md)
 * [gulp](gulp.md)
 * [骑行](ride.md)
+* soft
 
