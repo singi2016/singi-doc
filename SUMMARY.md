@@ -22,5 +22,6 @@
    * [mamp](help/mamp.md)
 * [gulp](gulp.md)
 * [骑行](ride.md)
+   * 桂林-永福
 * [各种软件简介](soft.md)
 
