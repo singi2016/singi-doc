@@ -29,5 +29,9 @@
 ####Goutte is a screen scraping and web crawling library for PHP.Goutte provides a nice API to crawl websites and extract data from the HTML/XML responses.
 >composer require fabpot/goutte
 
+###8.[Intervention Image](https://github.com/Intervention/image) 图片验证码
+####Intervention Image is a PHP image handling and manipulation library providing an easier and expressive way to create, edit, and compose images. The package includes ServiceProviders and Facades for easy Laravel integration.
+>php composer.phar require intervention/image
 
+####参考：[Installation API](http://image.intervention.io/getting_started/installation)
 
