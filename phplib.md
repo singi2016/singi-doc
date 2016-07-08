@@ -7,19 +7,19 @@
 
 >composer require fzaninotto/faker
 
-###2.[PHPMailer](https://github.com/PHPMailer/PHPMailer)
+###2.[PHPMailer](https://github.com/PHPMailer/PHPMailer) 电子邮件
 
 >composer require phpmailer/phpmailer
 
-###3.[PHPExcel](https://github.com/PHPOffice/PHPExcel)
+###3.[PHPExcel](https://github.com/PHPOffice/PHPExcel) 表格
 >git clone https://github.com/PHPOffice/PHPExcel.git
 
-###4.phpunit
+###4.phpunit 单元测试
 
 ###5.[php-the-right-way](http://laravel-china.github.io/php-the-right-way/)
 >php之道，学习php所有知识
 
-###6.[Carbon](https://github.com/briannesbitt/Carbon)
+###6.[Carbon](https://github.com/briannesbitt/Carbon) 日期扩展
 
 ####A simple PHP API extension for DateTime. http://carbon.nesbot.com
 
