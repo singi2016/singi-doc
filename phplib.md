@@ -7,4 +7,8 @@
 
 >composer require fzaninotto/faker
 
-2.
+2.[PHPMailer](https://github.com/PHPMailer/PHPMailer)
+
+>composer require phpmailer/phpmailer
+
+3.
