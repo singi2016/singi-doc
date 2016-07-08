@@ -3,7 +3,7 @@
 ##github
 ###1.[Faker](https://github.com/fzaninotto/Faker) 产生虚拟数据
 
-####Faker is a PHP library that generates fake data for you. Whether you need to bootstrap your database, create good-looking XML documents, fill-in your persistence to stress test it, or anonymize data taken from a production service, Faker is for you.
+####Faker is a PHP library that generates fake data for you.Whether you need to bootstrap your database, create good-looking XML documents, fill-in your persistence to stress test it, or anonymize data taken from a production service, Faker is for you.
 
 >composer require fzaninotto/faker
 
