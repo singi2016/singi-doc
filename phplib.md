@@ -25,7 +25,7 @@
 
 >composer require nesbot/carbon
 
-###7.[Goutte](https://github.com/FriendsOfPHP/Goutte)
+###7.[Goutte](https://github.com/FriendsOfPHP/Goutte) 网络爬虫
 ####Goutte is a screen scraping and web crawling library for PHP.Goutte provides a nice API to crawl websites and extract data from the HTML/XML responses.
 >composer require fabpot/goutte
 
