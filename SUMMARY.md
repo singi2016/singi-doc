@@ -18,7 +18,7 @@
        * [分页](php/tp3/page.md)
 * [bootstrap](bootstrap.md)
    * [bootstrap-table](bootstrap/bootstrap-table.md)
-   * bootstarp_template
+   * [bootstarp_template](bootstarptemplate.md)
 * [help](help.md)
    * [mamp](help/mamp.md)
 * [gulp](gulp.md)
