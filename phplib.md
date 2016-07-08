@@ -11,4 +11,6 @@
 
 >composer require phpmailer/phpmailer
 
-###3.
+###3.[PHPExcel](https://github.com/PHPOffice/PHPExcel)
+>https://github.com/PHPOffice/PHPExcel.git
+
