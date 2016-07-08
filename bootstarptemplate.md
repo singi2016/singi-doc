@@ -6,3 +6,4 @@
 bower install gentelella --save 
 npm install gentelella --save
 ```
+2. 
