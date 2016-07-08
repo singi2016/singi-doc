@@ -16,7 +16,7 @@
        * [tips](php/tp3/tips.md)
        * [rbac](php/tp3/rbac.md)
        * [分页](php/tp3/page.md)
-   * php_lib
+   * [php_lib](phplib.md)
 * [bootstrap](bootstrap.md)
    * [bootstrap-table](bootstrap/bootstrap-table.md)
    * [bootstarp_template](bootstarptemplate.md)
