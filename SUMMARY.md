@@ -22,7 +22,7 @@
    * [bootstarp_template](bootstarptemplate.md)
 * [help](help.md)
    * [mamp](help/mamp.md)
-   * wamp
+   * [wamp](wamp.md)
 * [gulp](gulp.md)
 * [骑行](ride.md)
    * [桂林-永福](guilin-yongfu.md)
