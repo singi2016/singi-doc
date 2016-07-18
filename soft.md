@@ -17,7 +17,7 @@
 ##git(gui)
 * tower
 * sourceTree
-* gitbook
+* gitbook(doc)
 * 
 
 ##接口测试
