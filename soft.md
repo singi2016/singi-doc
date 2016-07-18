@@ -21,7 +21,7 @@
 * 
 
 ##接口测试
-* postman
+* postman(api)
 
 ##Markdown
 * mou
