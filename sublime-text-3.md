@@ -18,6 +18,6 @@ function testFunction(a, b, c) {
 ```
 5. 并且在注释块中，按@键可以展开关键词：
 
-###[参考](http://usejsdoc.org/)
+###[YUI Compressor注释规](http://usejsdoc.org/)
 
 
