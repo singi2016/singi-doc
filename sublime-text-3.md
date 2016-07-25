@@ -1,4 +1,15 @@
 # sublime text 3
+
+##安装插件
+1. ctrl+` 调出命令输入窗口
+2. 输入：
+```
+import urllib.request,os;pf='Package Control.sublime-package';ipp=sublime.installed_packages_path();urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler()));open(os.path.join(ipp,pf),'wb').write(urllib.request.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read())
+```
+ 回车
+
+3. 重启sublimetext3
+
 ##自动生成js注释-DocBlockr
 1. 按`ctrl+shift+p`使用package control安装DocBlockr插件
 2. 先写完你的函数`function testFunction(a, b, c) { }`
