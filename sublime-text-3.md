@@ -24,5 +24,7 @@ function testFunction(a, b, c) {
 1. 按`ctrl+shift+p`使用package control安装
 2. 全选代码，按默认快捷键`shift+command+H`
 
+##sublimeGit
+
 
 
