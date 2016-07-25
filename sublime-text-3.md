@@ -1,5 +1,5 @@
 # sublime text 3
-##自动生成js注释
+##自动生成js注释-DocBlockr
 1. 按`ctrl+shift+p`使用package control安装DocBlockr插件
 2. 先写完你的函数`function testFunction(a, b, c) { }`
 3. 然后在函数的前面一行，输入
@@ -20,7 +20,9 @@ function testFunction(a, b, c) {
 
 ####[YUI Compressor注释规](http://usejsdoc.org/)
 
-##格式化js代码
+##格式化js代码-HTML-CSS-JS Prettify
+1. 按`ctrl+shift+p`使用package control安装
+2. 全选代码，按默认快捷键`shift+command+H`
 
 
 
