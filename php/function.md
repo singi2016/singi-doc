@@ -21,7 +21,14 @@
 
 ###2. 
 ```php
-/** * 中文星期几 * @param $date * @return mixed */function cnWeek($date){ $arr = array('天','一','二','三','四','五','六'); return $arr[date('w',strtotime($date))];} 
-
+/** 
+ * 中文星期几 
+ * @param $date 
+ * @return mixed 
+*/
+function cnWeek($date){ 
+    $arr = array('天','一','二','三','四','五','六'); 
+    return $arr[date('w',strtotime($date))];
+} 
 ```
 
