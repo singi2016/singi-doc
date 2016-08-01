@@ -1,5 +1,5 @@
 # singi-doc
-1. [js](./js)
-2. [php](./php)
-3. [bootstrap](./bootstrap)
-4. [help](./help)
+1. [js](js.md)
+2. [php](php.md)
+3. [bootstrap](bootstrap.md)
+4. [help](help.md)
