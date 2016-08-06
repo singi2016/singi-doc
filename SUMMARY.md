@@ -33,6 +33,7 @@
    * [桂林-永福](guilin-yongfu.md)
    * [桂林-龙胜](gui_6797-_long_sheng.md)
    * [桂林西南](gui_lin_xi_nan.md)
+   * 桂林西北
 * [各种软件简介](soft.md)
 * [项目构想](project.md)
 
