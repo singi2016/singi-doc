@@ -35,7 +35,7 @@
    * [桂林西南](gui_lin_xi_nan.md)
    * [桂林西北](gui_lin_xi_bei.md)
    * [桂林东北](gui_lin_dong_bei.md)
-   * 桂林东南
+   * [桂林东南](gui_lin_dong_nan.md)
 * [各种软件简介](soft.md)
 * [项目构想](project.md)
 
