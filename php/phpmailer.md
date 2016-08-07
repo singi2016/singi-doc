@@ -61,10 +61,7 @@ vendor('phpmailer.PHPMailerAutoload');
  */
 function send_mail($subject,$body,$to_mail){
     date_default_timezone_set('PRC');//设置时区
-    //验证邮箱格式
-    if (!preg_match("/([\w\-]+\@[\w\-]+\.[\w\-]+)/",$to_mail)) {
-        $to_mail = "发送到邮箱地址";
-    }
+    $mail->CharSet = 'UTF-8'; //设置邮件的字符编码，这很重要，不然中文乱码
     $mail = new \PHPMailer();
 //  $mail->SMTPDebug = 3;                // 调试模式，有错误的情况下最好打开，便于查出错误
     $mail->isSMTP();                       // 使用 SMTP
