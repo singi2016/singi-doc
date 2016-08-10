@@ -94,3 +94,14 @@ for (var i = 1; i < arr.length; i++) {
 2016-6-3 15:32 星期五
 2016-6-6 15:32 星期一
 ```
+
+###按下enter键执行特定操作
+```js
+//当按下enter简单的时候,也可以登录
+    $(document).keydown(function(e){
+        if(!e) e = window.event;
+        if((e.keyCode||e.which)===13){
+            //执行特定操作
+        }
+    });
+```
