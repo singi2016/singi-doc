@@ -4,4 +4,4 @@
 1. `ViewController` 需要在`Custom Class`绑定
 2. `storyboard`中的元素可以按住`Ctrl`,然后拖动到`ViewController`上，释放鼠标左键，然后可以选择需要绑定的方法(如果代码已经有了的话。)
 3. aotu layout,在main.storyboard->preview，记得同时按住shift+option，点击previw，然后，点击+,打开一个预览窗口就可以预览到界面了，坐下脚的+可以选择不同尺寸的屏幕，屏幕下方的按钮，可以横屏竖屏你的设备。
-
+4. prototype原型，开始一个app之前，先画好原型，工具sketch
