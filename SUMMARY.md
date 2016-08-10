@@ -3,7 +3,7 @@
 * [简介](README.md)
 * [swift](swift.md)
    * [value](value.md)
-   * learn_log
+   * [learn_log](learnlog.md)
 * [js](js.md)
    * [date](js/date.md)
    * [str](js/str.md)
