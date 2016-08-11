@@ -40,4 +40,5 @@
    * [桂林-义乌计划](gui_6797-_yi_wu_ji_hua.md)
 * [各种软件简介](soft.md)
 * [项目构想](project.md)
+* 团队开发
 
