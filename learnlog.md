@@ -9,4 +9,4 @@
 
 ##2016-8-11
 1. 添加元素的时候，需要注意元素的类型，ViewController是ViewController，TableViewController是TableViewController;
-2. 
+2. 关于绑定，首先绑定类，然后绑定类的属性
