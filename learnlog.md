@@ -11,4 +11,6 @@
 1. 添加元素的时候，需要注意元素的类型，ViewController是ViewController，TableViewController是TableViewController;
 2. 关于绑定，首先绑定类，然后绑定类的属性
 3. self.view.frame获取最外层View的frame对象,frame.size.width获取当前view的宽度。
-4. 
+
+##2016-8-12
+1. 
