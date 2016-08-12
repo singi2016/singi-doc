@@ -13,4 +13,5 @@
 3. self.view.frame获取最外层View的frame对象,frame.size.width获取当前view的宽度。
 
 ##2016-8-12
-1. 
+1. 点击表格某一行时，弹出UIAlertController，点击UIAlertController时，执行特定的动作，这里选择了某一行，并会打钩。
+2. 改变cell状态时，需要借助第三方变量来记录当前状态，然后改变时还需要刷新，从新载入已经改变的状态。
