@@ -1,7 +1,6 @@
 # Summary
 
 * [简介](README.md)
-   * music
 * [swift](swift.md)
    * [value](value.md)
    * [learn_log](learnlog.md)
