@@ -14,5 +14,6 @@
 
 ##2016-8-12
 1. 点击表格某一行时，弹出UIAlertController，点击UIAlertController时，执行特定的动作，这里选择了某一行，并会打钩。
-2. 
-3. 改变cell状态时，需要借助第三方变量来记录当前状态，然后改变时还需要刷新，从新载入已经改变的状态。
+2. 当某一行被选择时触发的方法是tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath)，然后在这个方法里面弹出UIAlertController。
+3. UIAlertController产生到显示的一般步骤：先生成一个UIAlertController对象，保存为optionMenu，然后生成一个UIAlertAction对象，这个是设置用户能看到的弹层内容的对象。接着调用optionMenu.addAction(UIAlertAction),将UIAlertAction加入到UIAlertController中，最后调用顶层TableViewController的presentViewController方法将UIAlertController显示在表格中。
+4. 改变cell状态时，需要借助第三方变量来记录当前状态，然后改变时还需要刷新，从新载入已经改变的状态。
