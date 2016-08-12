@@ -23,7 +23,7 @@
        * [分页](php/tp3/page.md)
        * [数据库大小写](php/数据库大小写.md)
        * [微信](php/微信.md)
-       * ajax跨域
+       * [ajax跨域](php/ajaxkua_yu.md)
    * [php\_lib](phplib.md)
 * [bootstrap](bootstrap.md)
    * [bootstrap-table](bootstrap/bootstrap-table.md)
