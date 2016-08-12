@@ -4,6 +4,7 @@
 * [swift](swift.md)
    * [value](value.md)
    * [learn_log](learnlog.md)
+   * thinkTodo
 * [js](js.md)
    * [date](js/date.md)
    * [str](js/str.md)
