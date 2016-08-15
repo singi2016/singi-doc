@@ -43,6 +43,7 @@
    * [骑行之乐](qi_xing_zhi_le.md)
 * [各种软件简介](soft.md)
 * [项目构想](project.md)
+   * 微架构
 * [团队开发](tuan_dui_kai_fa.md)
 * [music](music.md)
    * [一首歌的开始](yi_shou_ge_de_kai_shi.md)
