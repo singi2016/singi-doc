@@ -42,7 +42,7 @@
    * [桂林-义乌计划](gui_6797-_yi_wu_ji_hua.md)
    * [骑行之乐](qi_xing_zhi_le.md)
 * [各种软件简介](soft.md)
-   * vim
+   * [vim](vim.md)
 * [项目构想](project.md)
    * [微架构](wei_jia_gou.md)
 * [团队开发](tuan_dui_kai_fa.md)
