@@ -40,6 +40,7 @@
    * [桂林东北](gui_lin_dong_bei.md)
    * [桂林东南](gui_lin_dong_nan.md)
    * [桂林-义乌计划](gui_6797-_yi_wu_ji_hua.md)
+   * [骑行之乐](qi_xing_zhi_le.md)
 * [各种软件简介](soft.md)
 * [项目构想](project.md)
 * [团队开发](tuan_dui_kai_fa.md)
