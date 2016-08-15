@@ -9,6 +9,7 @@
 
 ##js,html,css
 * sublime 
+* vim(编程级编辑器)
 
 ##服务器
 * mamp(mac)
