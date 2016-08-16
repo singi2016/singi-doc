@@ -12,7 +12,6 @@
    * [sublime text 3](sublime-text-3.md)
    * [express](express.md)
        * [install](install.md)
-       * [build](build.md)
        * [framework](framework.md)
 * [php](php.md)
    * [function](php/function.md)
