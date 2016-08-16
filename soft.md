@@ -11,7 +11,7 @@
 * [sublime](http://www.sublimetext.com/)
 * [brackets](http://brackets.io/) 开源
 * [atom](https://atom.io/)
-* [visual studio code](https://code.visualstudio.com/?utm_expid=101350005-27.GqBWbOBuSRqlazQC_nNSRg.0)
+* [visual studio code](https://code.visualstudio.com/?utm_expid=101350005-27.GqBWbOBuSRqlazQC_nNSRg.0) 免费
 * vim(编程级编辑器)
 
 ##服务器
