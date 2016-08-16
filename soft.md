@@ -8,7 +8,8 @@
 * workbench 数据库设计
 
 ##js,html,css
-* sublime 
+* [sublime]()
+* [brackets](http://brackets.io/) 开源
 * vim(编程级编辑器)
 
 ##服务器
