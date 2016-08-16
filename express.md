@@ -1,6 +1,9 @@
 #express
 
 ##1. [跨域](https://github.com/expressjs/cors)
+```cmd
+npm install cors
+```
 ```js
 const cors = require('cors');
 app.use(cors());//设置跨域访问
