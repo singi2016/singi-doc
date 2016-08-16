@@ -13,7 +13,7 @@
    * [express](express.md)
        * [install](install.md)
        * [framework](framework.md)
-   * vs code
+   * [vs code](vs_code.md)
 * [php](php.md)
    * [function](php/function.md)
        * [array](php/function/array.md)
