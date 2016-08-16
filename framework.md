@@ -11,7 +11,7 @@ controller //控制器
   |-index.js  //api 入口控制文件
   |-demo.js  //其他控制模块
 model  //模型
-  |-demo.js  //
+  |-demo.js  //操作数据库
 .gitignote  
 app.js //api 入口
 package.json
