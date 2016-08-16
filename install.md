@@ -16,7 +16,7 @@ crypto.createHash('sha256').update('password').digest('hex');
 ```cmd
 npm install redis
 ```
-##4 [mysql](https://www.npmjs.com/package/mysql)
+##4 [数据库mysql](https://www.npmjs.com/package/mysql)
 ```cmd
 npm install mysql
 ```
