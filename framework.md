@@ -8,6 +8,8 @@ common //公共文件
   |-db.js  //数据文件
   |-function.js  //通用函数文件
 controller //控制器
+  |-index.js  //api 入口控制文件
+  |-xx.js  //其他控制模块
 model  //模型
 .gitignote  
 app.js //api 入口
