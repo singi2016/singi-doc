@@ -11,7 +11,7 @@
    * [function](js/function.md)
    * [sublime text 3](sublime-text-3.md)
    * [express](express.md)
-       * install
+       * [install](install.md)
 * [php](php.md)
    * [function](php/function.md)
        * [array](php/function/array.md)
