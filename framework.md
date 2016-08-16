@@ -5,6 +5,8 @@ bin
   |-www
 node_modules //npm install
 common //公共文件
+  |-db.js  //数据文件
+  |-function.js  //通用函数文件
 controller //控制器
 model  //模型
 .gitignote  
