@@ -7,6 +7,6 @@
  npm install supervisor -g
  ```
  ```cmd
- supervisor ./bin/www  //启动express,不用每次有改动都重启服务
+ supervisor ./bin/www  //启动express,每次有改动会都重启服务
  ```
  
