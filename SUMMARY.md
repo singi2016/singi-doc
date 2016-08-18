@@ -56,5 +56,5 @@
    * [图鉴人生](human/tu_jian_ren_sheng.md)
 * [日句](ri_ji.md)
 * [react](react.md)
-   * log
+   * [log](log.md)
 
