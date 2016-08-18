@@ -54,5 +54,5 @@
 * [TODO](todo.md)
 * [人](ren.md)
    * [图鉴人生](human/tu_jian_ren_sheng.md)
-* [日记](ri_ji.md)
+* [日句](ri_ji.md)
 
