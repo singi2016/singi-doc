@@ -45,7 +45,7 @@
    * [桂林-义乌计划](gui_6797-_yi_wu_ji_hua.md)
    * [骑行之乐](qi_xing_zhi_le.md)
    * [桂林-猫儿山](gui_6797-_mao_er_shan.md)
-   * 桂林尧山
+   * [桂林尧山](gui_lin_yao_shan.md)
 * [各种软件简介](soft.md)
    * [vim](vim.md)
 * [项目构想](project.md)
