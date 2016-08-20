@@ -11,7 +11,7 @@
 ---
 重要:不紧急
 
-1. react
+1. react+antd+webpack+babel+electron
 2. ios
 
 ---
