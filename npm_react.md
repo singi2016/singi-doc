@@ -43,5 +43,64 @@ touch App.jsx
 touch main.js
 touch webpack.config.js
 ```
+###第五步、设置编译器，服务器，载入器
+打开 webpack.config.js 文件添加以下代码:
+```js
+var config = {
+   entry: './main.js',
+	
+   output: {
+      path:'./',
+      filename: 'index.js',
+   },
+	
+   devServer: {
+      inline: true,
+      port: 7777
+   },
+	
+   module: {
+      loaders: [ {
+         test: /\.jsx?$/,
+         exclude: /node_modules/,
+         loader: 'babel',
+			
+         query: {
+            presets: ['es2015', 'react']
+         }
+      }]
+   }
+	
+}
 
+module.exports = config;
+```
+* entry: 指定打包的入口文件 main.js。
+* output：配置打包结果，path定义了输出的文件夹，filename则定义了打包结果文件的名称。
+* devServer：设置服务器端口号为 7777，端口后你可以自己设定 。
+* module：定义了对模块的处理逻辑，这里可以用loaders定义了一系列的加载器，以及一些正则。当需要加载的文件匹配test的正则时，就会调用后面的loader对文件进行处理，这正是webpack强大的原因。
+
+现在打开 package.json 文件，找到 "scripts" 中的 "test" "echo \"Error: no test specified\" && exit 1" 使用以下代码替换：
+```json
+"start": "webpack-dev-server --hot"
+```
+
+替换后的 package.json 文件 内容如下：
+```js
+{
+  "name": "runoob-react-test",
+  "version": "1.0.0",
+  "description": "菜鸟教程 react 测试",
+  "main": "index.js",
+  "scripts": {
+	"start": "webpack-dev-server --hot"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7"
+  }
+}
+```
 
