@@ -36,6 +36,12 @@ $ npm install babel-preset-react --save
 $ npm install babel-preset-es2015 --save
 ```
 
-###
+###第四步、创建文件
+```cmd
+touch index.html
+touch App.jsx
+touch main.js
+touch webpack.config.js
+```
 
 
