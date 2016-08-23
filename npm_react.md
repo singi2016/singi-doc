@@ -5,21 +5,21 @@
 
 ###第一步、安装全局包
 ```cmd
-$ npm install babel -g
-$ npm install webpack -g
-$ npm install webpack-dev-server -g
+npm install babel -g
+npm install webpack -g
+npm install webpack-dev-server -g
 ```
 > 必要在--save
 
 ```cmd
-$ npm install babel --save
-$ npm install webpack --save
-$ npm install webpack-dev-server --save
+npm install babel --save
+npm install webpack --save
+npm install webpack-dev-server --save
 ```
 
 ###第二步、创建根目录
 ```cmd
-$ npm init
+npm init
 ```
 
 
