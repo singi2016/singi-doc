@@ -140,3 +140,6 @@ npm start
 ```
 
 >通过浏览器访问 http://localhost:7777/，可以看到效果：
+
+
+##以上来自[菜鸟教程react](http://www.runoob.com/react/react-install.html)
