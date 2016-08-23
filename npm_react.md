@@ -17,4 +17,9 @@ $ npm install webpack --save
 $ npm install webpack-dev-server --save
 ```
 
+###第二步、创建根目录
+```cmd
+$ npm init
+```
+
 
