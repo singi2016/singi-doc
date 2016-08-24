@@ -32,4 +32,4 @@
 
 ##流程图
 * processon web协作
-* omnigraffle
+* omnigraffle(mac)
