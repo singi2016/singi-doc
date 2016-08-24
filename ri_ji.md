@@ -26,3 +26,8 @@ eb# 每日一句
 ###2016-8-23
 * 今天，收到了她给我买的第一件T恤。^_^
 * react+antd还是没有进展，或许思路该转变一下。
+
+###2016-8-24
+* 她今天表扬了我，还说了些让人害羞的话。
+* 泛化（Generalization）, 实现（Realization），关联（Association)，聚合（Aggregation），组合(Composition)，依赖(Dependency)
+* 泛化 = 实现 > 组合 > 聚合 > 关联 > 依赖
