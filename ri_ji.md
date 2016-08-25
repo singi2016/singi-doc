@@ -31,3 +31,7 @@ eb# 每日一句
 * 她今天表扬了我，还说了些让人害羞的话。
 * 泛化（Generalization）, 实现（Realization），关联（Association)，聚合（Aggregation），组合(Composition)，依赖(Dependency)
 * 泛化 = 实现 > 组合 > 聚合 > 关联 > 依赖
+
+###2016-8-25
+* 这个世界那么大，我的眼里只有她。
+* 
