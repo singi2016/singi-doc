@@ -1,2 +1,2 @@
-# react  [riˈækt]
+# react [riˈækt]
 
