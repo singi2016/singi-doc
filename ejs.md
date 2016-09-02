@@ -1,7 +1,7 @@
 # [ejs](http://ejs.co/)
 ###-`Effective JavaScript templating`
 
-###安装
+###安装`npm`
 ```
 npm install ejs
 ```
