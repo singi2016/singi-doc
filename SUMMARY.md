@@ -14,6 +14,7 @@
        * [install](install.md)
        * [framework](framework.md)
    * [vs code](vs_code.md)
+* [nodejs](nodejs.md)
 * [php](php.md)
    * [function](php/function.md)
        * [array](php/function/array.md)
@@ -65,5 +66,4 @@
 * [健康](jian_kang.md)
    * [久坐电脑前](jiu_zuo_dian_nao_qian.md)
 * [我的一天](wo_de_yi_tian.md)
-* [nodejs](nodejs.md)
 
