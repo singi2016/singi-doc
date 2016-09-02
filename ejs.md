@@ -21,7 +21,7 @@ var ejs = require('ejs'),
 * %> 结束标签
 * -%> 换行删除空格
 
-###自定义标签
+###自定义标签`delimiter`
 ```
 var ejs = require('ejs'),
     users = ['geddy', 'neil', 'alex'];
