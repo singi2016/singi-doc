@@ -1,5 +1,16 @@
 # [ejs](http://ejs.co/)
 
+###安装
+```
+npm install ejs
+```
+
+###`render()`方法
+```
+var ejs = require('ejs'),
+    people = ['geddy', 'neil', 'alex'],
+    html = ejs.render('<%= people.join(", "); %>', {people: people});
+```
 ###标签
 * <% 'Scriptlet' tag, for control-flow, no output
 * <%= Outputs the value into the template (HTML escaped)
