@@ -169,7 +169,7 @@ const table = $('#table'),
         remove.click(function () {
             const data = table.bootstrapTable('getSelections');
             console.log(data);
-            const objectIds = $.map(data, function (v) {
+            const objectIds = $.map(data, function (v) {//将所有行数据中的objectId重新组成一个数组
                 return v.objectId;
             })
             //删除数据库数据
