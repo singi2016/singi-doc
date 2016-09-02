@@ -70,7 +70,138 @@ $('#table').bootstrapTable({
 
 ##客户端分页
 
+```js
+const table = $('#table'),
+                remove = $('#remove');
 
+        //加载页面
+        $('document').ready(function () {
+            //加载文章列表
+            table.bootstrapTable({
+                pagination: true,//显示分页
+                striped: true, //设置为 true 会有隔行变色效果
+                responseHandler: function (res) { /*加载服务器数据之前的处理程序，可以用来格式化数据。 参数：res为从服务器请求到的数据。*/
+                    console.log(res);
+                    res.data.forEach(function (vo) {
+                        const datetime = new Date(vo.createdAt).format('yyyy-MM-dd HH:mm:ss');
+                        vo.createdAt = datetime;
+                        vo.action = `<a href="{:U('Article/editArticle')}?id=${vo.objectId}">编辑</a> | <a href="#" onclick="del('${vo.objectId}')">删除</a> `
+                    });
+                    return res;
+                },
+                clickToSelect:true,//点击行自动选择
+                search: true,//显示搜索框
+                showHeader: true,//显示头
+                showColumns: true,//显示行
+                showRefresh: true,//显示刷新
+                showToggle: true,//显示切换
+                showPaginationSwitch: true,//显示选择每页显示多少行
+                columns: [{
+                    field: 'state',//字段名
+                    checkbox: true,//多选框
+                    halign: 'center',//首行居中
+                    align: 'center'//内容居中
+                }, {
+                    field: 'title',
+                    title: '标题',
+                    sortable: true,
+                    halign: 'center'
+                }, {
+                    field: 'createdAt',
+                    title: '发布日期',
+                    sortable: true,
+                    halign: 'center',
+                    align: 'center'
+                }, {
+                    field: 'action',
+                    title: '操作',
+                    halign: 'center',
+                    align: 'center'
+                }],
+//                sidePagination : 'server',
+                url: 'http://happyfit-medium-service.leanapp.cn/api/article/'//获取服务器数据
+            });
+        });
+
+        //删除文章
+        function del(id) {
+            if (id) {
+                layer.confirm('确定要删除吗?', function (index) {
+                    //删除文章
+                    $.ajax({
+                        url: 'http://happyfit-medium-service.leanapp.cn/api/article/',
+                        data: {articleId: id},
+                        type: 'delete',
+                        dataType: 'json',
+                        beforeSend: function () {
+                            $('#show_load').show();
+                        },
+                        success: function (data) {
+                            console.log(data);
+                            if (data.code != 200) return false;
+
+                            //刷新表格
+                            table.bootstrapTable('remove',{
+                                field: 'objectId',
+                                values: [id]
+                            })
+//                            $('#article').bootstrapTable('refresh', {url: 'http://happyfit-medium-service.leanapp.cn/api/article/'});
+                            layer.close(index);
+                        },
+                        complete: function () {
+                            $('#show_load').hide();
+                        }
+                    });
+                })
+            } else {
+                layer.alert('没有选择数据!');
+                //刷新表格
+                $('#article').bootstrapTable('refresh', {url: 'http://happyfit-medium-service.leanapp.cn/api/article/'});
+            }
+        }
+
+        table.on('check.bs.table uncheck.bs.table ' +
+                'check-all.bs.table uncheck-all.bs.table', function () {
+            remove.prop('disabled', !table.bootstrapTable('getSelections').length);
+        });
+
+        //删除所选的行
+        remove.click(function () {
+            const data = table.bootstrapTable('getSelections');
+            console.log(data);
+            const objectIds = $.map(data, function (v) {
+                return v.objectId;
+            })
+            //删除数据库数据
+            data.forEach(function (v) {
+                $.ajax({
+                    url: 'http://happyfit-medium-service.leanapp.cn/api/article/',
+                    data: {articleId: v.objectId},
+                    type: 'delete',
+                    dataType: 'json',
+                    beforeSend: function () {
+                        $('#show_load').show();
+                    },
+                    success: function (data) {
+                        console.log(data);
+                        if (data.code != 200) {
+                            layer.alert('服务器错误,将重新载入页面!');
+                            location.reload();
+                        } else {
+                            //删除表格数据
+                            table.bootstrapTable('remove', {
+                                field: 'objectId',
+                                values: objectIds
+                            });
+                        }
+                    },
+                    complete: function () {
+                        $('#show_load').hide();
+                    }
+                });
+            });
+        });
+```
 
 
 
