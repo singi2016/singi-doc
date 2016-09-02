@@ -21,15 +21,6 @@ var ejs = require('ejs'),
 * %> 结束标签
 * -%> 换行删除空格
 
-###引入文件`include`
-```
-<ul>
-  <% users.forEach(function(user){ %>
-    <%- include('user/show', {user: user}); %>
-  <% }); %>
-</ul>
-```
-
 ###自定义标签
 ```
 var ejs = require('ejs'),
@@ -44,4 +35,13 @@ ejs.render('<?= users.join(" | "); ?>', {users: users},
 ejs.delimiter = '$';
 ejs.render('<$= users.join(" | "); $>', {users: users});
 // => 'geddy | neil | alex'
+```
+
+###引入文件`include`
+```
+<ul>
+  <% users.forEach(function(user){ %>
+    <%- include('user/show', {user: user}); %>
+  <% }); %>
+</ul>
 ```
