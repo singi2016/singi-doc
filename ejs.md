@@ -1,5 +1,5 @@
 # [ejs](http://ejs.co/)
-###-`Effective JavaScript templating.`
+###-`Effective JavaScript templating`
 
 ###安装
 ```
