@@ -159,7 +159,7 @@ const table = $('#table'),
                 $('#article').bootstrapTable('refresh', {url: 'http://happyfit-medium-service.leanapp.cn/api/article/'});
             }
         }
-
+        //选择多选框时，显示‘删除所选’按钮，没有多选框被选中时，‘删除所选’按钮不可点击
         table.on('check.bs.table uncheck.bs.table ' +
                 'check-all.bs.table uncheck-all.bs.table', function () {
             remove.prop('disabled', !table.bootstrapTable('getSelections').length);
