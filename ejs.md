@@ -12,7 +12,7 @@ var ejs = require('ejs'),
     people = ['geddy', 'neil', 'alex'],
     html = ejs.render('<%= people.join(", "); %>', {people: people});
 ```
-###标签
+###标签`<% %>`
 * <% js代码，控制流，不输出
 * <%= 原样输出
 * <%- 输出(HTML会被解析)
