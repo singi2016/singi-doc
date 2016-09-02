@@ -6,7 +6,7 @@
 npm install ejs
 ```
 
-###`render()`方法
+###渲染HTML`render()`
 ```
 var ejs = require('ejs'),
     people = ['geddy', 'neil', 'alex'],
