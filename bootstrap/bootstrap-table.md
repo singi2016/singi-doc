@@ -21,6 +21,7 @@ $('#table').bootstrapTable({
                     };
                 },
                 pagination: true,//分页
+                sidePagination : 'server',
                 pageList: [5, 10, 20, 50],//分页步进值
                 search: true,//显示搜索框
                 //表格的列
