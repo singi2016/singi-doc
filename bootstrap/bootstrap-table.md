@@ -141,9 +141,9 @@ const table = $('#table'),
                             if (data.code != 200) return false;
 
                             //刷新表格
-                            table.bootstrapTable('remove',{
-                                field: 'objectId',
-                                values: [id]
+                            table.bootstrapTable('remove',{//删除表格中的这一行
+                                field: 'objectId',//需要删除的字段
+                                values: [id]//需要删除的字段值，是一个数组
                             })
 //                            $('#article').bootstrapTable('refresh', {url: 'http://happyfit-medium-service.leanapp.cn/api/article/'});
                             layer.close(index);
