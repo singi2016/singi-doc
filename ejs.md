@@ -13,13 +13,13 @@ var ejs = require('ejs'),
     html = ejs.render('<%= people.join(", "); %>', {people: people});
 ```
 ###标签
-* <% 'Scriptlet' tag, for control-flow, no output
-* <%= Outputs the value into the template (HTML escaped)
-* <%- Outputs the unescaped value into the template
-* <%# Comment tag, no execution, no output
-* <%% Outputs a literal '<%'
-* %> Plain ending tag
-* -%> Trim-mode ('newline slurp') tag, trims following newline
+* <% js代码，控制流，不输出
+* <%= 原样输出
+* <%- 输出(HTML会被解析)
+* <%# 注释,不执行，不输出
+* <%% 输出 '<%'
+* %> 结束标签
+* -%> 换行删除空格
 
 ###引入文件`include`
 ```
