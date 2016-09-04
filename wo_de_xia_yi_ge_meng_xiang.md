@@ -17,5 +17,5 @@
 | 前端自动化 | 无 | gulp,webpack |
 | 后端 | php | nodejs |
 | 数据库 | mysql | mongodb |
-| 操作系统 | macOS,windows | linux-ubuntu |
+| 操作系统 | macOS,windows | linux:ubuntu,`centos` |
 | 前端 | html,css,js | - |
