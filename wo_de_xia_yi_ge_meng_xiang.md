@@ -12,7 +12,7 @@
 | 领域 | 基本 | 初级 | 中级 | 高级 |
 | -- | -- | -- | -- |
 | 前端 | html,css,js | react or angular| - | - |
-| 前端 | html,css,js | react or angular| - | - |
-| 前端 | html,css,js | react or angular| - | - |
-| 前端 | html,css,js | react or angular| - | - |
-| 前端 | html,css,js | react or angular| - | - |
+| 后端 | php,nodejs | - | - | - |
+| 服务器 | centOS | - | - | - |
+| 前端 | html,css,js | - | - | - |
+| 前端 | html,css,js | - | - | - |
