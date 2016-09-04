@@ -17,6 +17,7 @@
 | 前端自动化 | 无 | gulp,`webpack` |
 | 前端原型 | ps | sketch |
 | 流程图 | omniGraffle | - |
+| 移动开发 | -- | android,ios |
 | 后端 | php | `nodejs` |
 | 数据库 | mysql | mongodb |
 | 操作系统 | macOS,windows | linux:ubuntu,`centos` |
