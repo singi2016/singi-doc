@@ -12,7 +12,7 @@
 | 领域 | 已经掌握 | 下一阶段准备掌握 | 应该掌握
 | -- | -- | -- | -- |
 | 前端js | js | `reactjs` | angularjs|
-| 前端html | html | html5 | - |
+| 前端html | html | - | html5 |
 | 前端css | css | `less` | sass,stylus |
 | 前端自动化 | -- | `webpack` | gulp |
 | 前端模板 | -- | `ejs` |
