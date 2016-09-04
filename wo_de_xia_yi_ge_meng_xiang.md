@@ -14,7 +14,7 @@
 | 前端js | js | `reactjs` | angularjs|
 | 前端html | html | html5 | - |
 | 前端css | css | `less` | sass,stylus |
-| 前端自动化 | -- | gulp,`webpack` |
+| 前端自动化 | -- | `webpack` | gulp |
 | 前端模板 | -- | `ejs` |
 | 前端原型 | ps,sketch | - |
 | 流程图 | omniGraffle | - |
