@@ -7,3 +7,12 @@
 2. 前端工程师 工作经验1年
 3. 英语，日语
 4. 电商工作经验
+
+###我的全栈工程师技术栈
+| 领域 | 基本 | 初级 | 中级 | 高级 |
+| -- | -- | -- | -- |
+| 前端 | html,css,js | react or angular| - | - |
+| 前端 | html,css,js | react or angular| - | - |
+| 前端 | html,css,js | react or angular| - | - |
+| 前端 | html,css,js | react or angular| - | - |
+| 前端 | html,css,js | react or angular| - | - |
