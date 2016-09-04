@@ -14,5 +14,5 @@
 | 前端 | html,css,js | react or angular| - | - |
 | 后端 | php,nodejs | - | - | - |
 | 服务器 | centOS | - | - | - |
-| 前端 | html,css,js | - | - | - |
+| 操作系统 | lunix, mac os x,windows | - | - | - |
 | 前端 | html,css,js | - | - | - |
