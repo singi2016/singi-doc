@@ -12,7 +12,8 @@
 | 领域 | 已经掌握 | 下一阶段准备掌握 | 
 | -- | -- | -- |
 | 前端 | html,css,js | reactjs|
+| 前端自动化 | 无 | gulp,webpack |
 | 后端 | php | nodejs |
 | 数据库 | mysql | mongodb |
-| 操作系统 | macOS,windows | lunix |
+| 操作系统 | macOS,windows | lunix-ubuntu |
 | 前端 | html,css,js | - |
