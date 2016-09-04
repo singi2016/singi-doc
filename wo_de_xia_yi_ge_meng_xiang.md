@@ -20,5 +20,5 @@
 | 流程图 | omniGraffle | - | - |
 | 移动开发 | -- | android,ios | - |
 | 后端 | php | `nodejs` | java |
-| 数据库 | mysql | mongodb | oracle |
+| 数据库 | mysql | mongodb | oracle,redis |
 | 操作系统 | macOS,windows | `centos` | ubuntu
