@@ -9,10 +9,10 @@
 4. 电商工作经验
 
 ###我的全栈工程师技术栈
-| 领域 | 已经掌握 | 下一阶段准备掌握 | -- | -- |
-| -- | -- | -- | -- |
-| 前端 | html,css,js | react or angular| - | - |
-| 后端 | php | nodejs | - | - |
-| 数据库 | mysql | mongodb | - | - |
-| 操作系统 | lunix, mac os x,windows | - | - | - |
-| 前端 | html,css,js | - | - | - |
+| 领域 | 已经掌握 | 下一阶段准备掌握 | 
+| -- | -- | -- |
+| 前端 | html,css,js | reactjs|
+| 后端 | php | nodejs |
+| 数据库 | mysql | mongodb |
+| 操作系统 | macOS,windows | lunix |
+| 前端 | html,css,js | - |
