@@ -200,5 +200,22 @@ class Page{
 
 ###前台输入代码
 ```html
-
+            <div class="mianList">
+                <volist name="data" id="vo">
+                    <div class="mianList1">
+                        <h4><a href="{:U('Video/detail')}?id={$vo.id}">{$vo.name}</a></h4>
+                        <notempty name="vo.qUrl">
+                            <div class="clearfix of">
+                                <video width="400" id="player2" controls="controls">
+                                    <source src="{$vo.qUrl}" type="video/mp4" title="mp4">
+                                </video>
+                            </div>
+                        </notempty>
+                        <p>{$vo.viewCount}阅读.{$vo.commentCount}评论.{$vo.createdAt}</p>
+                    </div>
+                </volist>
+            </div>
+            <div class="text-center">
+                {$page}  //分页条
+            </div>
 ```
