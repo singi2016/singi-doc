@@ -201,7 +201,7 @@ class Page{
 ###前台输入代码
 ```html
             <div class="mianList">
-                <volist name="data" id="vo">
+                <volist name="data" id="vo"> //数据输出
                     <div class="mianList1">
                         <h4><a href="{:U('Video/detail')}?id={$vo.id}">{$vo.name}</a></h4>
                         <notempty name="vo.qUrl">
