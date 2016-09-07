@@ -34,7 +34,7 @@ $this->display('Admin/registerCheck');
 
 ###分页类修改为bootstrap样式
 
-> 需要使用前请引入bootstarp样式。 
+> 需要使用前请引入bootstarp样式。
 
 ```php
 <?php
