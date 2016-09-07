@@ -185,3 +185,20 @@ class Page{
 }
 
 ```
+###后台读取数据
+> 使用方法更官方版本一样。
+
+```php
+        $count = M('video')->count();
+        $page = new \Think\Page($count,5);
+        $list = M('video')->limit($page->firstRow.','.$page->listRows)->select();
+        $show = $page->show();// 分页显示输出
+        $this->assign('data',$list);// 赋值数据集
+        $this->assign('page',$show);// 赋值分页输出
+        $this->display(); // 输出模板
+```
+
+###前台输入代码
+```html
+
+```
