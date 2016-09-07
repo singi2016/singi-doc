@@ -216,6 +216,6 @@ class Page{
                 </volist>
             </div>
             <div class="text-center">
-                {$page}  //分页条
+                {$page}  //分页条显示
             </div>
 ```
