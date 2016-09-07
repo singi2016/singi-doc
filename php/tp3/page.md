@@ -33,7 +33,7 @@ $this->display('Admin/registerCheck');
 ```
 
 ###分页类修改为bootstrap样式
-
+> 将官方Tnink下面的Page类用下面的代码全部覆盖。即可使用。
 > 需要使用前请引入bootstarp样式。
 
 ```php
