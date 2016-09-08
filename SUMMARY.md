@@ -52,7 +52,7 @@
    * [骑行之乐](qi_xing_zhi_le.md)
    * [桂林-猫儿山](gui_6797-_mao_er_shan.md)
    * [桂林尧山](gui_lin_yao_shan.md)
-* 日句
+* [日句](ri_ju.md)
 * [我的下一个梦想](wo_de_xia_yi_ge_meng_xiang.md)
 * [各种软件简介](soft.md)
    * [vs code](vs_code.md)
