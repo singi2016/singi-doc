@@ -16,7 +16,7 @@
     curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 60); //链接时长
     curl_setopt($ch, CURLOPT_HTTPHEADER, $header); //heander头内容
     curl_setopt($ch, CURLOPT_POSTFIELDS , $data); //post数据
-    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1); //1 将curl_exec()获取的信息以字符串返回，而不是直接输出。
 
     $output = curl_exec($ch);
 
