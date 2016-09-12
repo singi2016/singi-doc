@@ -1,6 +1,6 @@
 # curl
 
-###post 
+###post请求 
 ```php
     $ch = curl_init();
     $header = array();
