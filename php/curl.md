@@ -12,7 +12,7 @@
     $header[] = "CheckSum: ".sha1(C('netease_vcloud_appSecret').C('netease_vcloud_nonce').$time);
 
     curl_setopt($ch, CURLOPT_URL, $api);
-    curl_setopt($ch, CURLOPT_POST, 1); //类型post
+    curl_setopt($ch, CURLOPT_POST, 1); //会发送 POST 请求，类型为：application/x-www-form-urlencoded，是 HTML 表单提交时最常见的一种。
     curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 60); //链接时长
     curl_setopt($ch, CURLOPT_HTTPHEADER, $header); //heander头内容
     curl_setopt($ch, CURLOPT_POSTFIELDS , $data); //post数据
