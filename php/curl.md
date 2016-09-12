@@ -14,7 +14,7 @@
     curl_setopt($ch, CURLOPT_URL, $api);
     curl_setopt($ch, CURLOPT_POST, 1); //会发送 POST 请求，类型为：application/x-www-form-urlencoded，是 HTML 表单提交时最常见的一种。
     curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 60); //在尝试连接时等待的秒数。设置为0，则无限等待。
-    curl_setopt($ch, CURLOPT_HTTPHEADER, $header); //heander头内容
+    curl_setopt($ch, CURLOPT_HTTPHEADER, $header); //设置 HTTP 头字段的数组。格式： array('Content-type: text/plain', 'Content-length: 100')
     curl_setopt($ch, CURLOPT_POSTFIELDS , $data); //post数据
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1); //将curl_exec()获取的信息以字符串返回，而不是直接输出。
 
