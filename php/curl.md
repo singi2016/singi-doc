@@ -12,10 +12,10 @@
     $header[] = "CheckSum: ".sha1(C('netease_vcloud_appSecret').C('netease_vcloud_nonce').$time);
 
     curl_setopt($ch, CURLOPT_URL, $api);
-    curl_setopt($ch, CURLOPT_POST, 1);
-    curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 60);
-    curl_setopt($ch, CURLOPT_HTTPHEADER, $header);
-    curl_setopt($ch, CURLOPT_POSTFIELDS , $data);
+    curl_setopt($ch, CURLOPT_POST, 1); //类型post
+    curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 60); //链接时长
+    curl_setopt($ch, CURLOPT_HTTPHEADER, $header); //heander头内容
+    curl_setopt($ch, CURLOPT_POSTFIELDS , $data); //post数据
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 
     $output = curl_exec($ch);
