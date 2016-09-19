@@ -40,7 +40,6 @@ function unique_arr($array2D,$stkeep=false,$ndformat=true)
       foreach ($author_hot as $key => $row) {
           $volume[$key]  = $row['id'];
       }
-      // 将数据根据 volume 降序排列
-      // 把 $data 作为最后一个参数，以通用键排序
+      // 将数据根据 volume 降序排列,把 $data 作为最后一个参数，以通用键排序
       array_multisort($volume, SORT_DESC,$data);
 ```
