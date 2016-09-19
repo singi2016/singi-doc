@@ -13,7 +13,6 @@ $('.summernote').summernote({
                 lang:'zh-CN',
                 callbacks: {
                     onImageUpload: function(files) {
-                        var $editor = $(this);
                         var data = new FormData(); //使用FormData对象上传
                         data.append('fileup', files[0]);
                         $.ajax({
