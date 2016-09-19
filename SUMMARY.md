@@ -41,6 +41,7 @@
 * [react](react.md)
    * [log](log.md)
    * [npm](npm_react.md)
+   * 设计原则
 * [uml](uml.md)
 * [gulp](gulp.md)
 * [骑行](ride.md)
