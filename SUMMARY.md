@@ -35,6 +35,7 @@
 * [bootstrap](bootstrap.md)
    * [bootstrap-table](bootstrap/bootstrap-table.md)
    * [bootstarp\_template](bootstarptemplate.md)
+   * summernote
 * [help](help.md)
    * [mamp](help/mamp.md)
 * [react](react.md)
