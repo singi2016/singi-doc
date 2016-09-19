@@ -5,7 +5,7 @@
 
 ###客户端
 ```js
-$('.summernote').summernote({
+$('#summernote').summernote({
                 height: 300,                 // set editor height
                 minHeight: null,             // set minimum height of editor
                 maxHeight: null,             // set maximum height of editor
@@ -22,7 +22,7 @@ $('.summernote').summernote({
                             processData: false,
                             contentType: false,
                             success: function(url) {
-                                $editor.summernote('insertImage', url);
+                                $('#summernote').summernote('insertImage', url);
                             }
                         });
                     }
