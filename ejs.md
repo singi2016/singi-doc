@@ -7,7 +7,7 @@ npm install ejs
 ```
 
 ###渲染HTML`render()`
-```
+```js
 var ejs = require('ejs'),
     people = ['geddy', 'neil', 'alex'],
     html = ejs.render('<%= people.join(", "); %>', {people: people});
@@ -22,7 +22,7 @@ var ejs = require('ejs'),
 * -%> 换行删除空格
 
 ###自定义标签`delimiter`
-```
+```js
 var ejs = require('ejs'),
     users = ['geddy', 'neil', 'alex'];
 
@@ -38,7 +38,7 @@ ejs.render('<$= users.join(" | "); $>', {users: users});
 ```
 
 ###引入文件`include`
-```
+```html
 <ul>
   <% users.forEach(function(user){ %>
     <%- include('user/show', {user: user}); %>
