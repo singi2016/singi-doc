@@ -30,3 +30,17 @@ function unique_arr($array2D,$stkeep=false,$ndformat=true)
     return $output;
 }
 ```
+
+###二维数组排序
+> 将两个数组合并，并排序
+
+```php
+      $data = array_merge($data1,$data2);
+      // 取得列的列表
+      foreach ($author_hot as $key => $row) {
+          $volume[$key]  = $row['id'];
+      }
+      // 将数据根据 volume 降序排列
+      // 把 $data 作为最后一个参数，以通用键排序
+      array_multisort($volume, SORT_DESC,$data);
+```
