@@ -32,5 +32,15 @@ $('#summernote').summernote({
 
 ###后端
 ```php
-
+    /**
+     * 上传七牛云
+     */
+    function uploadQiNiu(){
+        if($_FILES['fileup']['tmp_name']){
+            //上传七牛云
+            $urlKey = time().$_FILES['fileup']['name'];
+            $url = uploadQiniu($urlKey,$_FILES['fileup']['tmp_name']);
+            $this->ajaxReturn(array('urlKey'=>$urlKey,'url'=>$url),'json');
+        }
+    }
 ```
