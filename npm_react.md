@@ -10,7 +10,6 @@ npm install webpack -g
 npm install webpack-dev-server -g
 ```
 
-
 ###第二步、创建根目录
 ```cmd
 npm init
