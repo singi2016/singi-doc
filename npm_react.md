@@ -9,17 +9,19 @@ npm install babel -g
 npm install webpack -g
 npm install webpack-dev-server -g
 ```
-> 必要在--save
+
+
+###第二步、创建根目录
+```cmd
+npm init
+```
+
+然后，必须在`--save`
 
 ```cmd
 npm install babel --save
 npm install webpack --save
 npm install webpack-dev-server --save
-```
-
-###第二步、创建根目录
-```cmd
-npm init
 ```
 
 ###第三步、添加依赖包及插件
