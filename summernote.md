@@ -14,7 +14,7 @@ $('#summernote').summernote({
                 callbacks: {
                     onImageUpload: function(files) {
                         var data = new FormData(); //使用FormData对象上传
-                        data.append('fileup', files[0]);
+                        data.append('file', files[0]);
                         $.ajax({
                             url: '/Home/file/uploadQiNiu',
                             method: 'POST',
@@ -36,7 +36,7 @@ $('#summernote').summernote({
      * 上传七牛云
      */
     function uploadQiNiu(){
-        if($_FILES['fileup']['tmp_name']){
+        if($_FILES['file']['tmp_name']){
             //上传七牛云
             $urlKey = time().$_FILES['fileup']['name'];
             $url = uploadQiniu($urlKey,$_FILES['fileup']['tmp_name']);
