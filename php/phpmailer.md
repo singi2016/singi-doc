@@ -73,7 +73,7 @@ function send_mail($subject,$body,$to_mail){
     $mail->SMTPSecure = 'ssl';             // Enable TLS encryption, `ssl` also accepted 加密
     $mail->Port = 465;                     // TCP port to connect to 链接端口:465或587
 
-    $mail->setFrom('发送邮箱地址', '别名');   //服务器邮箱地址，第二个参数是别名，从服务器邮箱发送到哪
+    $mail->setFrom('服务器邮箱地址', '别名');   //服务器邮箱地址，第二个参数是别名，从服务器邮箱发送到哪
     $mail->addAddress($to_mail, '别名');     // 接受邮箱地址,可以添加多个
 //  $mail->addReplyTo('info@example.com', 'Information');
 //  $mail->addCC('cc@example.com');
