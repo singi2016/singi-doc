@@ -3,7 +3,7 @@
 ###内容中的图片上传
 > 默认是base64格式，现在需要上传七牛云，并改成七牛云链接格式
 
-###客户端
+###前端
 ```js
 $('#summernote').summernote({
                 height: 300,                 // set editor height
@@ -28,4 +28,9 @@ $('#summernote').summernote({
                     }
                 }
             });
+```
+
+###后端
+```php
+
 ```
