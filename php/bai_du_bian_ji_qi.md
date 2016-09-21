@@ -85,7 +85,7 @@
 
 ```php
   $content = I('post.editorValue');
-  preg_match_all('<img.*?src="(.*?)">',ltgt($content),$match);
+  preg_match_all('<img.*?src="(.*?)">',ltgt($content),$match); //ltgt()方法是将`<`,`>`等再转换回来
   $files = $match[1];
 ```
 > `$match[1]`中即为编辑器中所有图片链接
