@@ -25,8 +25,8 @@
 下面将以上传图片为例：
 1. 修改config.json配置如下：
 ```php
-"imageUrlPrefix": "http://o7atl50ri.bkt.clouddn.com/", /* 图片访问路径前缀 */
-"imagePathFormat": "{time}{rand:6}", /* 上传保存路径,可以自定义保存路径和文件名格式 */
+"imageUrlPrefix": "http://o7atl50ri.bkt.clouddn.com/", /* 图片访问路径前缀，七牛云域名 */
+"imagePathFormat": "{time}{rand:6}", /* 上传保存路径,可以自定义保存路径和文件名格式，七牛云图片名称 */
 ```
 
 
