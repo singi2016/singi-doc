@@ -31,6 +31,7 @@
        * [微信](php/微信.md)
        * [ajax跨域](php/ajaxkua_yu.md)
        * [curl](php/curl.md)
+       * 正则表达式regex
    * [php\_lib](phplib.md)
 * [bootstrap](bootstrap.md)
    * [bootstrap-table](bootstrap/bootstrap-table.md)
