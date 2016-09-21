@@ -77,5 +77,5 @@
 * [我的一天](wo_de_yi_tian.md)
 * [win-cmd](win-cmd.md)
 * [mac-cmd](mac-cmd.md)
-* git
+* [git](git.md)
 
