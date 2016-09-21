@@ -11,7 +11,13 @@
 
 ### 集成到thinkphp3.2.3
 因为`UEditor`已经帮我们写好了php代码，所以，后缀是.php的，这意味着在thinkphp中，这些文件属于外来的。那么这里就按照外来的文件对待。
-直接将`UEditor`
+直接将`UEditor`sdk和七牛云sdk一起复制到thinkphp3.2.3中的Public目录下面。
+> 想放在别的目录也可以，但是这里不适合再用thinkphp的方法，请将思维转回到传统php来。所以，我才选择放在Pulick目录下面
+
+* Public
+  * qiniuyun
+  * ueditor
+  
 
 
 
