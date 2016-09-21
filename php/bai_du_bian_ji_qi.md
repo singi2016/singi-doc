@@ -101,8 +101,9 @@
 
 ### UEditor常用配置
 ```
-//针对getAllHtml方法，会在对应的head标签中增加该编码设置。
-,charset:"utf-8"
+,charset:"utf-8"  //针对getAllHtml方法，会在对应的head标签中增加该编码设置。
 ,initialFrameHeight:500  //初始化编辑器高度,默认320
+,textarea:'editorValue' // 提交表单时，服务器获取编辑器提交内容的所用的参数，多实例时可以给容器name属性，会将name给定的值最为每个实例的键值，不用每次实例化的时候都设置这个值
+,initialContent:'欢迎使用ueditor!'    //初始化编辑器的内容,也可以通过textarea/script给值，看官网例子
 ```
 
