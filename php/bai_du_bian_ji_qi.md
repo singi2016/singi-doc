@@ -90,7 +90,7 @@
 ```
 > `$match[1]`中即为编辑器中所有图片链接
 
-提取`$match[1]`中，七牛云文件名:
+提取`$match[1]`中，所有七牛云文件名:
 ```php
       $urlKey = array();
       foreach($files as $k=>$v){
