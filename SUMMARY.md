@@ -32,7 +32,7 @@
        * [ajax跨域](php/ajaxkua_yu.md)
        * [curl](php/curl.md)
        * [正则表达式regex](php/zheng_ze_biao_da_shi_regex.md)
-       * 百度编辑器
+       * [百度编辑器](php/bai_du_bian_ji_qi.md)
    * [php\_lib](phplib.md)
 * [bootstrap](bootstrap.md)
    * [bootstrap-table](bootstrap/bootstrap-table.md)
