@@ -29,7 +29,7 @@ git checkout -- <file>
 git commit -m <message>
 ```
 
-### 取消commit
+### 取消commit到本地仓库
 ```
 git rm <file>
 ```
