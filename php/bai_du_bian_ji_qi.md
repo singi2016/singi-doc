@@ -6,8 +6,8 @@
 > **结果：编辑器图片链接为七牛云链接**
 
 ### sdk资源准备
-1. 七牛云 phpSDK
-2. UEditor [1.4.3.3 php] utf-8版
+1. 七牛云 phpSDK 重命名为qiniuyun
+2. UEditor [1.4.3.3 php] utf-8版 重命名为ueditor
 
 ### 集成到thinkphp3.2.3
 因为`UEditor`已经帮我们写好了php代码，所以，后缀是.php的，这意味着在thinkphp中，这些文件属于外来的。那么这里就按照外来的文件对待。
@@ -19,6 +19,8 @@
   * qiniuyun
   * ueditor
   
-### 
+### 改造UEditor
+> 这时的UEditor处理图片是将图片上传到网址根目录下面。具体地址在ueditor
+1. 
 
 
