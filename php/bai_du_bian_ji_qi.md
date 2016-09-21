@@ -7,7 +7,7 @@
 
 ### sdk资源准备
 1. 七牛云phpSDK
-2. UEditor 1.4.3 phpSDK
+2. UEditor [1.4.3.3 php] utf-8版
 
 ### 集成到thinkphp3.2.3
 因为`UEditor`已经帮我们写好了php代码，所以，后缀是.php的，这意味着在thinkphp中，这些文件属于外来的。那么这里就按照外来的文件对待。
