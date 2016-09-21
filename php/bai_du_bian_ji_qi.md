@@ -6,7 +6,7 @@
 > **结果：编辑器图片链接为七牛云链接**
 
 ### sdk资源准备
-1. 七牛云phpSDK
+1. 七牛云 phpSDK
 2. UEditor [1.4.3.3 php] utf-8版
 
 ### 集成到thinkphp3.2.3
