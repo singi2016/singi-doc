@@ -84,6 +84,7 @@
 ### 提取编辑器中所有图片链接
 
 ```php
+  $content = I('post.editorValue');
   preg_match_all('<img.*?src="(.*?)">',ltgt($content),$match);
   $files = $match[1];
 ```
