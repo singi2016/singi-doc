@@ -65,7 +65,7 @@
         }
     }
 ```
-  修改`Uploader`类中文件上传方法:
+  修改`Uploader`类中文件上传方法,最后几行如下:
   ```php
         //移动文件,上传到七牛云
         $res = $this->uploadQiniu($this->fullName, $file["tmp_name"]); //此处修改
