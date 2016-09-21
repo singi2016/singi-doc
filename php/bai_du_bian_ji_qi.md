@@ -83,7 +83,9 @@
 
 ### 提取编辑器中所有图片链接
 
+```php
+  preg_match_all('<img.*?src="(.*?)">',ltgt($content),$match);
+  $files = $match[1];
 ```
-
-```
+> `$match[1]`中即为编辑器中所有图片链接
 
