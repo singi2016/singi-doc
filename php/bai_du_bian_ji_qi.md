@@ -20,7 +20,7 @@
   * ueditor
   
 ### 改造UEditor
-> 这时的UEditor处理图片是将图片上传到网址根目录下面。具体地址在ueditor
-1. 
+> 这时的UEditor处理图片的方法是将图片上传到网址根目录下面。具体配置在`ueditor/php/config.json`文件中。
+
 
 
