@@ -1,6 +1,9 @@
 # 百度编辑器 UEditor
 
-> ### `thinkphp3.2.3`,`ueditor`,`qiniuyun`
+> ### 标签：`thinkphp3.2.3`,`ueditor`,`qiniuyun`
+> #### 应用场景：
+> 使用百度编辑器上传图片，文件等到七牛云服务器，
+> **结果：编辑器图片链接为七牛云链接**
 
 
 
