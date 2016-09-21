@@ -32,7 +32,7 @@
 
 2. 修改`ueditor/php/Uploader.class.php`如下:
 
-  在`Uploader`类开始处引入七牛云
+  在`Uploader`类开始处引入七牛云SDK
   ```php
   require_once 'qiniuyun/autoload.php';
   ```
