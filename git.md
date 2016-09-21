@@ -15,17 +15,26 @@ git branch -a
 git checkout -b branch origin/branch
 ```
 
-### 添加文件或目录
+### 添加文件或目录到暂存区
 ```
 git add <file>
 ```
+### 取消已添加到暂存区的文件或目录
+```
+git checkout -- <file>
+```
 
-### 提交添加的文件到暂存区
+### 提交添加的文件到本地仓库
 ```
 git commit -m <message>
 ```
 
-### 提交暂存区的文件到远端仓库
+### 取消commit
+```
+git rm <file>
+```
+
+### 提交本地仓库的文件到远端仓库
 ```
 git push
 ```
