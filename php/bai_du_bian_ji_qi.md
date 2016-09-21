@@ -28,7 +28,7 @@
 "imageUrlPrefix": "http://o7atl50ri.bkt.clouddn.com/", /* 图片访问路径前缀，七牛云域名 */
 "imagePathFormat": "{time}{rand:6}", /* 上传保存路径,可以自定义保存路径和文件名格式，七牛云图片名称 */
 ```
-> 这里的配置会返回七牛云链接`http://o7atl50ri.bkt.clouddn.com/文件名`
+> 这里的配置会返回七牛云链接`http://o7atl50ri.bkt.clouddn.com/文件名`，并插入到前段内容中去。
 
 2. 修改`ueditor/php/Uploader.class.php`如下:
 
