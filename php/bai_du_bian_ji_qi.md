@@ -99,3 +99,10 @@
 ```
 > `$urlKey`和`$match[1]`中的数据一一对应，文件名:文件地址
 
+### UEditor常用配置
+```
+//针对getAllHtml方法，会在对应的head标签中增加该编码设置。
+,charset:"utf-8"
+,initialFrameHeight:500  //初始化编辑器高度,默认320
+```
+
