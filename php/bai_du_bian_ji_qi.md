@@ -109,7 +109,7 @@
 
 ### ltgt()方法
 ```php
-//&lt;转成<,&rt;转成>
+//&lt;转成<,&rt;转成>,&quot;转成"
 function ltgt($str){
     $lt = str_replace('&lt;','<',$str);
     $gt = str_replace('&gt;','>',$lt);
