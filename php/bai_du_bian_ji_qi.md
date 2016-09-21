@@ -107,3 +107,7 @@
 ,initialContent:'欢迎使用ueditor!'    //初始化编辑器的内容,也可以通过textarea/script给值，看官网例子
 ```
 
+### ltgt()方法
+```
+
+```
