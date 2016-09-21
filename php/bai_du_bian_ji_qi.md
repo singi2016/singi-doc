@@ -22,5 +22,12 @@
 ### 改造UEditor
 > 这时的UEditor处理图片的方法是将图片上传到网址根目录下面。具体配置在`ueditor/php/config.json`文件中。
 
+下面将以上传图片为例：
+1. 修改config.json配置如下：
+```php
+"imageUrlPrefix": "http://o7atl50ri.bkt.clouddn.com/", /* 图片访问路径前缀 */
+"imagePathFormat": "{time}{rand:6}", /* 上传保存路径,可以自定义保存路径和文件名格式 */
+```
+
 
 
