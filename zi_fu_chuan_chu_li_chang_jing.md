@@ -11,6 +11,7 @@ function get($str,$separator){
     return substr(strrchr($str,$separator),1);
 }
 ```
-**Example**：根据七牛云地址获取七牛云Key
+**例子**：根据七牛云地址获取七牛云Key
 `getEndBySeparator('http://ob0ci39pv.bkt.clouddn.com/1474613744女03前弓步-动作要领.mp4','/')`
-`output` : `1474613744女03前弓步-动作要领.mp4`
+
+`输出` : `1474613744女03前弓步-动作要领.mp4`
