@@ -13,7 +13,7 @@ function get($str,$separator){
 ```
 Example：根据七牛云地址获取七牛云Key
 
-``
+`getEndBySeparator('http://ob0ci39pv.bkt.clouddn.com/1474613744女03前弓步-动作要领.mp4','/')`
 
 `input` : `http://ob0ci39pv.bkt.clouddn.com/1474613744女03前弓步-动作要领.mp4`
 
