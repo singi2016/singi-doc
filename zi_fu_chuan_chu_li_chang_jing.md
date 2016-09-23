@@ -1,7 +1,6 @@
 # 字符串处理场景
 
 ### 从字符串中获取指定字符
-
 ```php
 /**
  * @param $str
@@ -9,10 +8,10 @@
  * @return string
  */
 function get($str,$separator){
-    return substr(strrchr($str,'$separator'),1);
+    return substr(strrchr($str,$separator),1);
 }
 ```
-例子：根据七牛云地址获取七牛云Key
+Example：根据七牛云地址获取七牛云Key
 
 ``
 
