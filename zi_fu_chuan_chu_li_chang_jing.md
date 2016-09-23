@@ -1,6 +1,6 @@
 # 字符串处理场景
 
-### 查找指定字符在字符串中的最后一次出现,并返回指定字符之后的所有字符（不包括指定字符本身）
+#### 查找指定字符在字符串中的最后一次出现,并返回指定字符之后的所有字符（不包括指定字符本身）
 ```php
 /**
  * @param $str
@@ -12,9 +12,5 @@ function get($str,$separator){
 }
 ```
 **Example**：根据七牛云地址获取七牛云Key
-
 `getEndBySeparator('http://ob0ci39pv.bkt.clouddn.com/1474613744女03前弓步-动作要领.mp4','/')`
-
-`input` : `http://ob0ci39pv.bkt.clouddn.com/1474613744女03前弓步-动作要领.mp4`
-
 `output` : `1474613744女03前弓步-动作要领.mp4`
