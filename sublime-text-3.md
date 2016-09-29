@@ -46,5 +46,8 @@ function testFunction(a, b, c) {
 
 ##[sublimeGit](https://docs.sublimegit.net/tutorial.html)
 
+###右键在文件夹中打开文件`view in browser`
+
+
 
 
