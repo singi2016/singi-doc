@@ -47,7 +47,7 @@ function testFunction(a, b, c) {
 ##[sublimeGit](https://docs.sublimegit.net/tutorial.html)
 
 ###右键在文件夹中打开文件`view in browser`
-
+安装完之后，右键即可看到选项
 
 
 
