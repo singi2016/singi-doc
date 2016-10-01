@@ -62,7 +62,7 @@
 * [日句](ri_ju.md)
    * 2016-10
    * 2016-9
-   * 2016-8
+   * [2016-8](2016-8.md)
 * [我的下一个梦想](wo_de_xia_yi_ge_meng_xiang.md)
 * [各种软件简介](soft.md)
    * [vs code](vs_code.md)
