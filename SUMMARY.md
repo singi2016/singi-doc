@@ -60,7 +60,7 @@
    * [桂林尧山](gui_lin_yao_shan.md)
    * [桂林-深圳计划](gui_6797-_shen_zhen_ji_hua.md)
 * [日句](ri_ju.md)
-   * 2016-10
+   * [2016-10](2016-10.md)
    * [2016-9](2016-9.md)
    * [2016-8](2016-8.md)
 * [我的下一个梦想](wo_de_xia_yi_ge_meng_xiang.md)
