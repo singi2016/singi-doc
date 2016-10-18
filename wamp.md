@@ -9,4 +9,6 @@ Include conf/extra/httpd-vhosts.conf
 ```
 这样就在配置文件中引入了httpd-vhosts.conf文件。
 
+### 配置虚拟主机
 
+在Apache安装目录的confextra目录下，比如我的是D:\wamp\bin\apache\apache2.2.22\conf\extra，用记事本打开httpd-vhosts.conf，最最底部你会看到２个虚拟主机样例，将其中一个修改为类型下面的，删除多余的样例：
