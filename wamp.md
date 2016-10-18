@@ -16,7 +16,7 @@ Include conf/extra/httpd-vhosts.conf
 <VirtualHost *:80>
  ServerAdmin singi
  DocumentRoot "C:/xampp/htdocs/bannuo/"
- ServerName bannuo.com
+ ServerName bannuo
  ErrorLog "logs/bannuo.com-error.log"
  CustomLog "logs/bannuo.com-access.log" common
 </VirtualHost>
