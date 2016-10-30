@@ -75,7 +75,7 @@
    * [爬虫](pa_chong.md)
    * [租房](租房.md)
    * [个人管理](个人管理.md)
-   * 万事屋
+   * [万事屋](wan_shi_wu.md)
 * [music](music.md)
    * [一首歌的开始](yi_shou_ge_de_kai_shi.md)
 * [TODO](todo.md)
