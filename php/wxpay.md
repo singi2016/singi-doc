@@ -60,7 +60,8 @@ echo $echostr; exit;
 class JsApiPay{ 
 /** * * 网页授权接口微信服务器返回的数据，返回样例如下 * { * "access_token":"ACCESS_TOKEN", * "expires_in":7200, * "refresh_token":"REFRESH_TOKEN", * "openid":"OPENID", * "scope":"SCOPE", * "unionid": "o6_bmasdasdsad6_2sgVt7hMZOPfL" * } * 其中access_token可用于获取共享收货地址 * openid是微信支付jsapi支付接口必须的参数 * @var array */ public $data = null; /** * * 通过跳转获取用户的openid，跳转流程如下： * 1、设置自己需要调回的url及其其他参数，跳转到微信服务器https://open.weixin.qq.com/connect/oauth2/authorize * 2、微信服务处理完成之后会跳转回用户redirect_uri地址，此时会带上一些参数，如：code * * @return 用户的openid */ 
 public function GetOpenid() { 
-//通过code获得openid if (!isset($_GET['code'])) { 
+//通过code获得openid 
+if (!isset($_GET['code'])) { 
 //触发微信返回code码 
 $baseUrl = urlencode('http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']);
 //. $_SERVER['QUERY_STRING'] $url = $this->__CreateOauthUrlForCode($baseUrl); 
