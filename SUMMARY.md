@@ -35,7 +35,7 @@
        * [百度编辑器](php/bai_du_bian_ji_qi.md)
        * [excel](php/excel.md)
        * [wxpay](php/wxpay.md)
-       * 无限分级
+       * [无限分级](php/wu_xian_fen_ji.md)
    * [php\_lib](phplib.md)
    * [字符串处理场景](zi_fu_chuan_chu_li_chang_jing.md)
 * [bootstrap](bootstrap.md)
