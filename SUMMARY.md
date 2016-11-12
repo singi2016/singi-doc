@@ -10,7 +10,6 @@
    * [str](js/str.md)
    * [function](js/function.md)
 * [npm](npm.md)
-   * mysql
 * [nodejs](nodejs.md)
    * [http](http.md)
    * [express](express.md)
