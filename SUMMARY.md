@@ -93,5 +93,4 @@
 * [git](git.md)
 * [header](header.md)
 * [wamp](wamp.md)
-* mysql
 
