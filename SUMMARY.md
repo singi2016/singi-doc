@@ -37,6 +37,7 @@
        * [wxpay](php/wxpay.md)
        * [QRcode](php/qrcode.md)
        * [无限分级](php/wu_xian_fen_ji.md)
+       * 易联云打印
    * [php\_lib](phplib.md)
    * [字符串处理场景](zi_fu_chuan_chu_li_chang_jing.md)
 * [bootstrap](bootstrap.md)
