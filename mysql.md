@@ -25,5 +25,5 @@ show tables;//显示所有表
 grant select on database.* to username@host indentified by 
 passwd; //创建
 
-revoke select,insert,update,delete on *.* from singi@218.29.79.149; //删除
+revoke select,insert,update,delete on *.* from username@host; //删除
 ```
