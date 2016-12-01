@@ -15,7 +15,7 @@ show tables;//显示所有表
 describe tables;//显示表结构
 
 select * from tables;
-insert tables (id) values (1);
+insert tables (name) values ('singi');
 update tables set name = 'singi' where id = 1;
 delete from tables where id = 1;
 ```
