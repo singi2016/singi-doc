@@ -14,7 +14,7 @@ use user;//选择要操作的数据库
 show tables;//显示所有表
 ```
 
-### 创建授权访问用户
+### 授权访问用户操作
 ```
 /*
  database授权操作的数据库名称
@@ -23,5 +23,7 @@ show tables;//显示所有表
  passwd密码
  */
 grant select on database.* to username@host indentified by 
-passwd;
+passwd; //创建
+
+revoke select,insert,update,delete on *.* from singi@218.29.79.149; //删除
 ```
