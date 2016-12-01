@@ -12,6 +12,12 @@ mysql -uroot -proot //-u后面是用户名，-p后面是密码
 show databases; //显示所有数据库
 use user;//选择要操作的数据库
 show tables;//显示所有表
+describe tables;//显示表结构
+
+select * from tables;
+insert tables (id) values (1);
+update tables set name = 'singi' where id = 1;
+delete from tables where id = 1;
 ```
 
 ### 授权访问用户操作
