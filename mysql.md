@@ -32,4 +32,5 @@ grant create,drop,select,insert,update,delete on database.* to username@host ide
 passwd; //创建
 
 revoke select,insert,update,delete on *.* from username@host; //删除
+flush privileges;//刷新权限
 ```
