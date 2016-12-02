@@ -28,7 +28,7 @@ delete from tables where id = 1;
  host主机ip
  passwd密码
  */
-grant create,drop,select,insert,update,delete on database.* to username@host indentified by 
+grant create,drop,select,insert,update,delete on database.* to username@host identified by 
 passwd; //创建
 
 revoke select,insert,update,delete on *.* from username@host; //删除
