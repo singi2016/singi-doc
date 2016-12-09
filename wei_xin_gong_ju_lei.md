@@ -119,5 +119,4 @@ $textTpl = "<xml>
           </xml>";
 $msgType = "image";
 echo sprintf($textTpl, $fromUsername, $toUsername, $time, $msgType, $data['media_id']);
-
 ```
