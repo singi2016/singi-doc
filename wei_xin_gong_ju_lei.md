@@ -1,6 +1,6 @@
 # 微信工具类
 
-###notify
+### notify
 ```php
 /**
      * 微信支付回调
@@ -21,4 +21,13 @@
          
         echo 'success';
     }
+```
+
+### xml2Arr
+```
+function xml2Arr($xml){
+   //禁止引用外部xml实体
+   libxml_disable_entity_loader(true);
+   return json_decode(json_encode(simplexml_load_string($xml, 'SimpleXMLElement', LIBXML_NOCDATA)), true);
+}
 ```
