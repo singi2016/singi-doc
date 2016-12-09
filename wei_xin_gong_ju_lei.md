@@ -88,6 +88,8 @@ function xml2Arr($xml){
 }
 ```
 ### arr2Xml
+>适用于php一维数组
+
 ```php
 public function arr2Xml($arr)
     {
@@ -102,4 +104,22 @@ public function arr2Xml($arr)
         $xml .= "</xml>";
         return $xml;
     }
+```
+
+### xmltpl
+> 微信响应消息返回数据示例
+
+```php
+function xmltpl(){
+  $textTpl = "<xml>
+            <ToUserName><![CDATA[%s]]></ToUserName>
+            <FromUserName><![CDATA[%s]]></FromUserName>
+            <CreateTime>%s</CreateTime>
+            <MsgType><![CDATA[%s]]></MsgType>
+            <Content><![CDATA[%s]]></Content>
+            </xml>";
+ $msgType = "text";
+ $contentStr = $this->get_user($fromUsername, $postObj->EventKey);
+ return sprintf($textTpl, $fromUsername, $toUsername, $time, $msgType, $contentStr)
+}
 ```
