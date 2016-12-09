@@ -107,19 +107,19 @@ public function arr2Xml($arr)
 ```
 
 ### xmltpl
-> 微信响应消息返回数据示例
+> 微信响应消息返回数据代码片段示例
 
 ```php
-function xmltpl(){
-  $textTpl = "<xml>
-            <ToUserName><![CDATA[%s]]></ToUserName>
-            <FromUserName><![CDATA[%s]]></FromUserName>
-            <CreateTime>%s</CreateTime>
-            <MsgType><![CDATA[%s]]></MsgType>
-            <Content><![CDATA[%s]]></Content>
-            </xml>";
- $msgType = "text";
- $contentStr = $this->get_user($fromUsername, $postObj->EventKey);
- return sprintf($textTpl, $fromUsername, $toUsername, $time, $msgType, $contentStr)
-}
+$textTpl = "<xml>
+      <ToUserName><![CDATA[%s]]></ToUserName>
+      <FromUserName><![CDATA[%s]]></FromUserName>
+      <CreateTime>%s</CreateTime>
+      <MsgType><![CDATA[%s]]></MsgType>
+      <Image>
+          <MediaId><![CDATA[%s]]></MediaId>
+      </Image>
+          </xml>";
+$msgType = "image";
+echo sprintf($textTpl, $fromUsername, $toUsername, $time, $msgType, $data['media_id']);
+
 ```
