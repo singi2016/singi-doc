@@ -106,9 +106,7 @@ public function arr2Xml($arr)
     }
 ```
 
-### xmltpl
-> 微信响应消息返回数据代码片段示例
-
+### 微信响应消息返回数据代码片段示例
 ```php
 $textTpl = "<xml>
       <ToUserName><![CDATA[%s]]></ToUserName>
