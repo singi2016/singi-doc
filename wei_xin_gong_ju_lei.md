@@ -24,7 +24,7 @@
 ```
 
 ### curl_post
-```
+```php
 function curl_post($url, $data)
     {
         //创建一个新cURL资源
@@ -48,7 +48,7 @@ function curl_post($url, $data)
 ```
 
 ### curl_get
-```
+```php
 function curl_get($url)
     {
         //初始化
@@ -80,7 +80,7 @@ function curl_get($url)
 ```
 
 ### xml2Arr
-```
+```php
 function xml2Arr($xml){
    //禁止引用外部xml实体
    libxml_disable_entity_loader(true);
@@ -88,8 +88,18 @@ function xml2Arr($xml){
 }
 ```
 ### arr2Xml
-```
-function arr2Xml(){
-  
-}
+```php
+public function arr2Xml($arr)
+    {
+        $xml = "<xml>";
+        foreach (arr as $key => $val) {
+            if (is_numeric($val)) {
+                $xml .= "<" . $key . ">" . $val . "</" . $key . ">";
+            } else {
+                $xml .= "<" . $key . "><![CDATA[" . $val . "]]></" . $key . ">";
+            }
+        }
+        $xml .= "</xml>";
+        return $xml;
+    }
 ```
