@@ -60,7 +60,8 @@ imagedestroy($image);
 > 原二维码被覆盖
 
 ```php
-function qrcode7logo($QR,$logo){
+function qrcode7logo($qr,$logo){
+  $QR = $qr;
   $QR = imagecreatefromstring(file_get_contents($QR));
   $logo = imagecreatefromstring(file_get_contents($logo));
   $QR_width = imagesx($QR);//二维码图片宽度
@@ -73,6 +74,6 @@ function qrcode7logo($QR,$logo){
   $from_width = ($QR_width - $logo_qr_width) / 2;
   //重新组合图片并调整大小
   imagecopyresampled($QR, $logo, $from_width, $from_width, 0, 0, $logo_qr_width, $logo_qr_height, $logo_width, $logo_height);
-  imagepng($QR, $QR);
+  imagepng($QR, $qr);
 }
 ```
