@@ -31,4 +31,9 @@ function xml2Arr($xml){
    return json_decode(json_encode(simplexml_load_string($xml, 'SimpleXMLElement', LIBXML_NOCDATA)), true);
 }
 ```
-
+### arr2Xml
+```
+function arr2Xml(){
+  
+}
+```
