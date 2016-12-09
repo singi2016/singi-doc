@@ -41,6 +41,7 @@
    * [php\_lib](phplib.md)
    * [字符串处理场景](zi_fu_chuan_chu_li_chang_jing.md)
    * [微信工具类](wei_xin_gong_ju_lei.md)
+   * image
 * [bootstrap](bootstrap.md)
    * [bootstrap-table](bootstrap/bootstrap-table.md)
    * [bootstarp\_template](bootstarptemplate.md)
