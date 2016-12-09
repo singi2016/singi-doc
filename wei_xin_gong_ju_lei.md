@@ -25,7 +25,7 @@
 
 ### curl_post
 ```
-function curl_post($url, $data = null)
+function curl_post($url, $data)
     {
         //创建一个新cURL资源
         $curl = curl_init();
@@ -43,7 +43,7 @@ function curl_post($url, $data = null)
         $output = curl_exec($curl);
         //关闭cURL资源，并且释放系统资源
         curl_close($curl);
-        return $output;
+        return son_decode($output,true);
     }
 ```
 
