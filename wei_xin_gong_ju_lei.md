@@ -43,7 +43,7 @@ function curl_post($url, $data)
         $output = curl_exec($curl);
         //关闭cURL资源，并且释放系统资源
         curl_close($curl);
-        return son_decode($output,true);
+        return json_decode($output,true);
     }
 ```
 
