@@ -1,7 +1,6 @@
 # Summary
 
 * [简介](README.md)
-   * PHP面试
 * [swift](swift.md)
    * [value](value.md)
    * [learn\_log](learnlog.md)
