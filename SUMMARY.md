@@ -86,7 +86,6 @@
    * [图鉴人生](human/tu_jian_ren_sheng.md)
 * [健康](jian_kang.md)
    * [久坐电脑前](jiu_zuo_dian_nao_qian.md)
-* [我的一天](wo_de_yi_tian.md)
 * [win-cmd](win-cmd.md)
 * [mac-cmd](mac-cmd.md)
 * [git](git.md)
