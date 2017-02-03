@@ -1,4 +1,4 @@
-# 路由篇
+# 路由配置-`URI`
 
 配置文件位置：`application/config/routes.php`
 格式：`rootpath/class/method/param`
