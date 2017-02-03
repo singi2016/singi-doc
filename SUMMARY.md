@@ -96,5 +96,5 @@
 * [syosetsu](syosetsu.md)
     * [outline](outline.md)
 * [ci](ci.md)
-    * [router](router.md)
+    * [route](router.md)
 
