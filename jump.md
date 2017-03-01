@@ -60,7 +60,7 @@
 $this->load->view('tpl/jump');
 ```
 
-> $this-&gt;load-&gt;view\('tpl/jump',\[array\]\);`array('url'=>'','msg'=>'','time'=>'')`
+> $this-&gt;load-&gt;view\('tpl/jump',\[array\]\);`array('msg'=>'','url'=>'','time'=>'')`
 
 
 
