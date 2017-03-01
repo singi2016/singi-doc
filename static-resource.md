@@ -5,7 +5,7 @@
 ### 1. 调用
 
 ```php
-
+<?php echo base_url().'public/*.js' ?>
 ```
 
 
