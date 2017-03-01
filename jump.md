@@ -1,6 +1,8 @@
 # 自动跳转提示页
 
-```php
+### 1. jump.php
+
+```
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -51,6 +53,14 @@
 </body>
 </html>
 ```
+
+### 2. 使用方法
+
+```php
+$this->load->view('tpl/jump');
+```
+
+>
 
 
 
