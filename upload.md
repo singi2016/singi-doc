@@ -93,5 +93,7 @@ function edit(){
     }
 ```
 
+> 删除图片时，如果是相对路径，路径前面需要加上`.`；例如`/public/avatar/me.jpg` =&gt; `./public/avatar/me.jpg`
+
 
 
