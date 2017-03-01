@@ -2,7 +2,7 @@
 
 ### 1. jump.php
 
-```
+```php
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -60,7 +60,5 @@
 $this->load->view('tpl/jump');
 ```
 
->
-
-
+&gt;
 
