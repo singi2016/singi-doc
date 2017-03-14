@@ -102,4 +102,5 @@
   * [static resource](static-resource.md)
   * [third\_party](third_party.md)
   * [upload](upload.md)
+  * [download](download.md)
 
