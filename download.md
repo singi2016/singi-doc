@@ -37,7 +37,7 @@
         $objPHPExcel->getSheet()->setCellValue('A1', 'PHPExcel');
         //准备网页输出
         $objWriter = new PHPExcel_Writer_Excel2007($objPHPExcel);
-
+        ob_end_clean();//清除缓冲区，否则将可能出现乱码
         header('Content-type: application/vnd.ms-excel');
         header('Content-Disposition: attachment; filename="资金交易记录.xlsx"');
         $objWriter->save('php://output'); //向网页中输出excel
