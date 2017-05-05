@@ -1,11 +1,14 @@
 # 正则表达式regex
 
 ### 从html中获取img的src值
+
 ```php
 preg_match_all('<img.*?src="(.*?)">',ltgt($content),$match);
 $files = $match[1];
 ```
+
 `$match`中的数据如图：
+
 ```php
 array(2) {
   [0] => array(4) {
@@ -22,3 +25,6 @@ array(2) {
   }
 }
 ```
+
+
+
