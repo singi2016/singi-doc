@@ -29,3 +29,9 @@
         
         }
 ```
+
+## 2前台调用分页条
+
+```php
+<?php echo $this->pagination_singi->create_links();?>
+```
