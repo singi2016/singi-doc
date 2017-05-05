@@ -5,6 +5,12 @@
 ## 1配置
 
 ```php
+
+    function fund($offset=0,$limit=2){
+        $pay_where = array(
+            'p_from_u_id'=>$this->session->userdata('s_id'),
+            'p_to_u_id'=>$this->session->userdata('s_id'),
+        );
         $total_count = $this->pay_model->getCount($where);//数据总条数
         // 基本设置
         $config['base_url'] = site_url('finance/fund').'/';
@@ -18,4 +24,8 @@
         // 初始化分页
         $this->pagination->initialize($config);
         // --- 分页end ---
+        
+        // 其他逻辑
+        
+        }
 ```
