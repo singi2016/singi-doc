@@ -9,5 +9,10 @@ cd /etc/sysconfig/network-scripts/
 ls 
 vi ifcfg-eno32
 ```
-编辑
-`ONBOOT="yes"`
+编辑`ONBOOT="yes"`然后`:wq`保存退出
+## 2. 重启有限网卡
+`service network restart`
+
+## 3. 如果还不能正常上网。那么请检查下面事项
+1. 打开虚拟机存储的目录，用记事本打开三台电脑图标的vmx配置文件加一条进去ethernet0.virtualDev = "e1000"保存
+2. 虚拟机网卡模式设置成`NAT`连接
