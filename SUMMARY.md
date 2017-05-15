@@ -101,4 +101,5 @@
   * [download](download.md)
 * [centos7](centos7.md)
   * [vmware中按照centos7连不上网](centos7/vmwarezhong-an-zhao-centos7-lian-bu-shang-wang.md)
+  * [yum按照软件提示被锁](centos7/yuman-zhao-ruan-jian-ti-shi-bei-suo.md)
 
