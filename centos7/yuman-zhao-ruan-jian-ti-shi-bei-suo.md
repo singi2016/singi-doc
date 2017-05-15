@@ -1,4 +1,4 @@
-# yum按照软件提示被锁
+# yum安装软件提示被锁
 
 > 提示原文`Another app is currently holding the yum lock; waiting for it to exit...`
 
