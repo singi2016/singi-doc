@@ -2,7 +2,7 @@
 
 > 有线网卡没有激活
 
-## 1. 获得管理员权限，编辑`ifcfg-enoxx`文件,`xx`这里的数字是随机的,我这里是`ifcfg-eno32`。
+## 1. 获得管理员权限，编辑`ifcfg-enoxx`文件,`xx`这里的数字是随机的,我这里是`32`。
 ```
 su
 cd /etc/sysconfig/network-scripts/
