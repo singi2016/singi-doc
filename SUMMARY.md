@@ -47,6 +47,7 @@
   * [bootstrap-table](bootstrap/bootstrap-table.md)
   * [bootstarp\_template](bootstarptemplate.md)
   * [summernote](summernote.md)
+  * [daterpicker](bootstrap/daterpicker.md)
 * [help](help.md)
   * [mamp](help/mamp.md)
 * [react](react.md)
