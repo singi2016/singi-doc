@@ -107,4 +107,5 @@
 * [csharp](csharp.md)
 * [htmlcssjs](htmlcssjs.md)
   * [广告屏蔽插件监测](htmlcssjs/guang-gao-ping-bi-cha-jian-jian-ce.md)
+* [laravel/laravelgenerator](laravellaravelgenerator.md)
 
