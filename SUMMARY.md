@@ -105,5 +105,5 @@
   * [yum按照软件提示被锁](centos7/yuman-zhao-ruan-jian-ti-shi-bei-suo.md)
   * [crontab](centos7/crontab.md)
 * [csharp](csharp.md)
-* [laravel/laravelgenerator](laravel/laravellaravelgenerator.md)
+* [laravelgenerator](laravel/laravellaravelgenerator.md)
 
