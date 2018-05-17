@@ -43,6 +43,7 @@
   * [image](image.md)
   * [微信jsapi支付](微信jsapi支付.md)
   * [多级树遍历](多级树遍历.md)
+  * [git](php/git.md)
 * [bootstrap](bootstrap.md)
   * [bootstrap-table](bootstrap/bootstrap-table.md)
   * [bootstarp\_template](bootstarptemplate.md)
