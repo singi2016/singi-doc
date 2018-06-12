@@ -22,7 +22,8 @@
 1 创建用户并赋予权限
 
 ```
-grant insert,select,delete,update,create,alter,drop,index on `conzhu.com`.* to b2b_admin@localhost identified by 'Admin2018';//赋予b2b_admin用户conzhu.com数据库的所有表的 表[增删改查],数据库[增减]索引 权限
+# 赋予b2b_admin用户conzhu.com数据库的所有表的 表[增删改查],数据库[增减]索引 权限
+grant insert,select,delete,update,create,alter,drop,index on `conzhu.com`.* to b2b_admin@localhost identified by 'Admin2018';
 ```
 
 2 刷新权限
