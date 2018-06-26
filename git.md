@@ -1,6 +1,6 @@
 # git
 
-## git本地仓库关联远程仓库
+## 本地仓库关联远程仓库
 
 ```
 git remote add origin repository
