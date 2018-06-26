@@ -21,7 +21,7 @@ git update-index –no-assume-unchanged filename //恢复记录忽略的文件
 
 ```
 1. git rm –cached filename //不再追踪
-2. filename commit -m “filename文件以后都不会被记录到git中” //提交修改到本地git,filename此时变成 untracked,可以被添加到.gitignore文件中被忽略
+2. filename commit -m "rm" //提交修改到本地,filename此时变成`untracked`
 3. 将需要忽略的文件添加到.gitignore文件中
 ```
 > 这些文件需要重新 git add filename 才能被再次追踪
