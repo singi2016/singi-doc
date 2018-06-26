@@ -13,8 +13,8 @@ git push -u origin master
 ## 忽略本地已经追踪了的文件
 
 ```
-git update-index –-assume-unchanged filename //忽略文件
-git update-index –-no-assume-unchanged filename //恢复记录忽略的文件
+git update-index --assume-unchanged filename //忽略文件
+git update-index --no-assume-unchanged filename //恢复记录忽略的文件
 ```
 
 ## 移除已经追踪了的文件
