@@ -62,7 +62,7 @@
   * [桂林尧山](gui_lin_yao_shan.md)
   * [桂林-深圳计划](gui_6797-_shen_zhen_ji_hua.md)
   * [深圳](shen-zhen.md)
-* [我的下一个梦想](wo_de_xia_yi_ge_meng_xiang.md)
+* [我](wo_de_xia_yi_ge_meng_xiang.md)
 * [各种软件简介](soft.md)
   * [vim](vim.md)
 * [项目构想](project.md)
