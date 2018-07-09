@@ -73,6 +73,7 @@
 * [mysql](mysql.md)
   * [创建用户以及权限](mysql/chuang-jian-yong-hu-yi-ji-quan-xian.md)
   * [sql](mysql/sql.md)
+  * [php命令行执行sql](mysql/phpming-ling-xing-zhi-xing-sql.md)
 * [php面试](phpmian_shi.md)
 * [syosetsu](syosetsu.md)
   * [outline](outline.md)
