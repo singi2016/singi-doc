@@ -1,3 +1,5 @@
+## sql.sh
+
 ```
 mysql -uusername -p'pasword' -D'mysql' < path_to_sql_file/file.sql;
 
