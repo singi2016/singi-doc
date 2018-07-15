@@ -3,7 +3,7 @@
 书名|
 -|
 PHP从入门到精通（第4版）|
-PHP 7从入门到精通|
+PHP7从入门到精通|
 Head First PHP & MySQL（中文版）|
 Laravel入门与实战：构建主流PHP应用开发框架|
 PHP学习手册|
