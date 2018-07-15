@@ -90,4 +90,7 @@
 * [需求](xu-qiu.md)
   * [猜一个数字](xu-qiu/cai-zi-you-xi.md)
 * [微信公众号](wei-xin-gong-zhong-hao.md)
+* [all.singiblog.top](allsingiblogtop.md)
+  * [图书](allsingiblogtop/zi-yuan.md)
+    * [php](allsingiblogtop/zi-yuan/php.md)
 
