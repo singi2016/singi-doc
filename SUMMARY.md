@@ -94,6 +94,7 @@
   * [图书](allsingiblogtop/zi-yuan.md)
     * [php](allsingiblogtop/zi-yuan/php.md)
     * [python](allsingiblogtop/zi-yuan/python.md)
+    * [java](allsingiblogtop/zi-yuan/java.md)
 * [常用框架](chang-yong-kuang-jia.md)
 * [html页面](htmlye-mian.md)
 

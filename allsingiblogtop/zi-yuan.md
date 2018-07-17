@@ -3,6 +3,8 @@
 ## 导航
 
 - [php(书单)](zi-yuan/php.md)
+- [python(书单)](zi-yuan/python.md)
+- [java(书单)](zi-yuan/java.md)
 
 ## 系列
 
