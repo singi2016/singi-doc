@@ -95,6 +95,13 @@
     * [php](allsingiblogtop/zi-yuan/php.md)
     * [python](allsingiblogtop/zi-yuan/python.md)
     * [java](allsingiblogtop/zi-yuan/java.md)
+    * javascript
+  * [小说](allsingiblogtop/xiao-shuo.md)
+  * [游戏](allsingiblogtop/you-xi.md)
+    * [策略](allsingiblogtop/you-xi/ce-lve.md)
+    * 射击
+    * [动作ACT](allsingiblogtop/you-xi/dong-zuo-act.md)
+    * [RPG](allsingiblogtop/you-xi/rpg.md)
 * [常用框架](chang-yong-kuang-jia.md)
 * [html页面](htmlye-mian.md)
 
