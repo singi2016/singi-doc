@@ -97,6 +97,7 @@
     * [java](allsingiblogtop/zi-yuan/java.md)
     * javascript
     * [C++](allsingiblogtop/zi-yuan/c++.md)
+    * [sql](allsingiblogtop/zi-yuan/sql.md)
   * [小说](allsingiblogtop/xiao-shuo.md)
   * [游戏](allsingiblogtop/you-xi.md)
     * [策略](allsingiblogtop/you-xi/ce-lve.md)
