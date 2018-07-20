@@ -105,4 +105,5 @@
     * [RPG](allsingiblogtop/you-xi/rpg.md)
 * [常用框架](chang-yong-kuang-jia.md)
 * [html页面](htmlye-mian.md)
+* [编程中的常见错误](bian-cheng-zhong-de-chang-jian-cuo-wu.md)
 
