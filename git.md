@@ -1,5 +1,11 @@
 # git
 
+## 打包某两次提交的代码
+
+```
+git diff --name-only commitID1 commitID2| xargs tar -jcvf diff.tar
+```
+
 ## 本地仓库关联远程仓库
 
 ```
