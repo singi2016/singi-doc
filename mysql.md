@@ -19,6 +19,13 @@ insert tables (name) values ('singi');
 update tables set name = 'singi' where id = 1;
 delete from tables where id = 1;
 ```
+### 修改数据库表结构
+
+1. 新增1列
+
+```
+
+```
 
 ### 授权访问用户操作
 ```
