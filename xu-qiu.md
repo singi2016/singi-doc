@@ -8,7 +8,7 @@
 -|-|-
 name|varchar(255)|名称
 description|varchar(1023)|描述
-websites|text|以实现的网址,json
+websites|text|已实现的网址,json
 
 
 ## 未实现
