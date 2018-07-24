@@ -2,6 +2,15 @@
 
 > 各种需求描述
 
+# 数据库结构
+
+字段|类型|备注
+-|-|-
+name|varchar(255)|名称
+description|varchar(1023)|描述
+websites|text|以实现的网址,json
+
+
 ## 未实现
 
 1. 二维码生成

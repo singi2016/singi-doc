@@ -89,6 +89,7 @@
   * [crontab](centos7/crontab.md)
 * [需求](xu-qiu.md)
   * [猜一个数字](xu-qiu/cai-zi-you-xi.md)
+  * [数据收集](xu-qiu/shu-ju-shou-ji.md)
 * [微信公众号](wei-xin-gong-zhong-hao.md)
 * [all.singiblog.top](allsingiblogtop.md)
   * [图书](allsingiblogtop/zi-yuan.md)
