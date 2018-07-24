@@ -7,7 +7,7 @@
 字段|类型|备注
 -|-|-
 name|varchar(255)|名称
-description|varchar(1023)|描述
+description|text|描述
 websites|text|已实现的网址,json
 
 
