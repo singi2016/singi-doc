@@ -24,7 +24,7 @@ delete from tables where id = 1;
 1. 新增1列
 
 ```
-
+alter table table_name add column_name tinyint(1) unsigned default 0 comment '备注' not null;
 ```
 
 ### 授权访问用户操作
