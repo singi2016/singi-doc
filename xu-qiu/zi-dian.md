@@ -12,4 +12,5 @@ paraphrase|varchar(255)|释义
 phrase|varchar(255)|词组
 homoionym|varchar(255)|近义词
 antonym|varchar(255)|反义词
+example_sentence|varchar(255)|例句
 
