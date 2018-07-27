@@ -31,7 +31,4 @@ function aes_decript($ciphertext,$key){
         return $original_plaintext;
     }
 }
-
-
-
 ```
