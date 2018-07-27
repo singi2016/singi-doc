@@ -49,6 +49,7 @@
     * [upload](upload.md)
     * [pagination\_vars](paginationvars.md)
     * [download](download.md)
+  * [加解密](php/jia-jie-mi.md)
 * [bootstrap](bootstrap.md)
   * [bootstrap-table](bootstrap/bootstrap-table.md)
   * [bootstarp\_template](bootstarptemplate.md)
