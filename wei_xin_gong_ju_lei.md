@@ -27,6 +27,8 @@
 ```php
 function curl_post($url, $data)
     {
+        $url = 'http://www.example.com';
+        $data= 'name=BY2&age=999';
         //创建一个新cURL资源
         $curl = curl_init();
         //设置URL和相应的选项
