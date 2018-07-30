@@ -25,7 +25,7 @@
 
 ### curl_post
 
-> 
+> 参数包含特殊字符(+)时,使用urlencode()编码
 
 ```php
 function curl_post($url, $data)
