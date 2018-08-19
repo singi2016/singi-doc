@@ -3,3 +3,16 @@
 ```
 composer create-project --prefer-dist laravel/laravel project-name "5.5.*"
 ```
+
+# 开发规范
+
+```
+https://laravel-china.org/docs/laravel-specification/5.5
+```
+
+# 文档
+
+```
+https://laravel-china.org/docs/laravel/5.5
+```
+
