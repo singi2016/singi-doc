@@ -16,3 +16,18 @@ https://laravel-china.org/docs/laravel-specification/5.5
 https://laravel-china.org/docs/laravel/5.5
 ```
 
+# 扩展
+
+## 调试
+
+```
+
+```
+
+## 后台
+
+## API
+
+## 多语言
+
+## 
