@@ -13,3 +13,37 @@
 > 每日群发一篇文章
 
 
+## 微信内网页分享显示LOGO
+
+```
+$.post('{:url("home/api/get_wechat_sign")}',{'wechat_key':'{$Think.session.wechat_key}','url':encodeURIComponent(location.href.split("#")[0])},function(res){
+            console.log(res);
+            wx.config({
+                debug: true,
+                appId: res.appId,
+                timestamp: res.timestamp,
+                nonceStr: res.nonceStr,
+                signature: res.signature,
+                jsApiList: [
+                    'onMenuShareTimeline',
+                    'onMenuShareAppMessage',
+                    'onMenuShareQQ'
+                ]
+            });
+            wx.ready(function () {
+                var shareData = {
+                    title: $('title').text(),
+                    desc: location.href,
+                    link: location.href,
+                    imgUrl: 'https://www.conzhu.com/public/images/wechat_share_logo_300x300.jpg'
+                };
+                wx.onMenuShareAppMessage(shareData);//分享给朋友
+                wx.onMenuShareTimeline(shareData);//分享到朋友圈
+                wx.onMenuShareQQ(shareData);//分享到QQ
+            });
+            wx.error(function (res) {
+                console.log(res);
+            });
+        },'json');
+```
+
