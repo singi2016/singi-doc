@@ -19,7 +19,7 @@
 $.post('{:url("home/api/get_wechat_sign")}',{'wechat_key':'{$Think.session.wechat_key}','url':encodeURIComponent(location.href.split("#")[0])},function(res){
             console.log(res);
             wx.config({
-                debug: true,
+                debug: false,
                 appId: res.appId,
                 timestamp: res.timestamp,
                 nonceStr: res.nonceStr,
