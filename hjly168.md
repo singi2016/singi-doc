@@ -20,6 +20,7 @@
 字段|类型|备注
 -|-|-
 uid|int:10|用户id
+username|varchar:255|用户名
 order_id|int|订单id
 express_no|varchar:255|快递单号
 goods_name|varchar:255|货物品名
