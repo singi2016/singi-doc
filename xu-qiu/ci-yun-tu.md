@@ -1,6 +1,6 @@
 # 词云图 tag-cloud
 
-> antV G2
+> [antV G2](https://antv.alipay.com/zh-cn/g2/3.x/demo/other/word-cloud-mask.html)
 
 # 代码
 
