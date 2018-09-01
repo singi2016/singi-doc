@@ -26,6 +26,8 @@ https://laravel-china.org/docs/laravel/5.5
 
 ## 后台
 
+laravel-admin
+
 ## API
 
 ## 多语言
