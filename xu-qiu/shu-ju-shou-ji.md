@@ -23,8 +23,12 @@ ID|备注
 字段|类型|备注
 -|-|-
 planet_id|int:10|星球id(预留字段)
-name|string:255|名称
+continent_id|int:10|大洲id
+short_name|string:255|名称
+full_name|string:255|中文全称
+name_en|string:255|英文全称
 code|string:255|区域代码
+state_system|tinyint:1|国家体制 
 
 ### 地理大区
 

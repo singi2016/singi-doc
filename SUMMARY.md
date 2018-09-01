@@ -92,7 +92,6 @@
 * [需求](xu-qiu.md)
   * [猜一个数字](xu-qiu/cai-zi-you-xi.md)
   * [数据收集](xu-qiu/shu-ju-shou-ji.md)
-    * [省市区](xu-qiu/shu-ju-shou-ji/sheng-shi-qu.md)
   * [字典](xu-qiu/zi-dian.md)
   * [词云图](xu-qiu/ci-yun-tu.md)
 * [微信公众号](wei-xin-gong-zhong-hao.md)
