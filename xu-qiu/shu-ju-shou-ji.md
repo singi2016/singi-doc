@@ -28,7 +28,9 @@ short_name|string:255|名称
 full_name|string:255|中文全称
 name_en|string:255|英文全称
 code|string:255|区域代码
-state_system|tinyint:1|国家体制 
+state_system|tinyint:1|国家体制
+capital|string:255|首都
+flag|string:255|旗帜
 
 ### 地理大区
 
