@@ -29,8 +29,8 @@ full_name|string:255|中文全称
 name_en|string:255|英文全称
 code|string:255|区域代码
 state_system|tinyint:1|国家体制
-capital|string:255|首都
-flag|string:255|旗帜
+capital|string:255|首都 + 20180904
+flag|string:255|国旗 + 20180904
 
 ### 地理大区
 
@@ -54,6 +54,7 @@ name|string:255|名称
 code|string:255|区域代码
 attr|string:255|简称
 initial|char:1|大写首字母
+postcode|string:255|邮政编码 + 20180904
 
 ### 市 city
 
@@ -62,6 +63,7 @@ initial|char:1|大写首字母
 province_id|int:10|省id
 name|string:255|名称
 code|string:255|区域代码
+postcode|string:255|邮政编码 + 20180904
 
 ### 县/镇/乡 county
 
@@ -70,6 +72,7 @@ code|string:255|区域代码
 city_id|int:10|市id
 name|string:255|名称
 code|string:255|区域代码
+postcode|string:255|邮政编码 + 20180904
 
 ### 街道/大队/村委会 street
 
@@ -78,4 +81,4 @@ code|string:255|区域代码
 city_id|int:10|县/镇/乡id
 name|string:255|名称
 code|string:255|区域代码
-
+postcode|string:255|邮政编码 + 20180904
