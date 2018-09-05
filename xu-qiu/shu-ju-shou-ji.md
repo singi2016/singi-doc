@@ -28,6 +28,8 @@ code|string:255|代码
 metro_station_id|int:10|地铁站点id
 name|string:255|名称
 note|string:255|备注
+has_wc|tinyint:1|有厕所1是2否
+has_elevator|tinyint:1|有垂直电梯1是2否
 
 ---
 > 20180830
