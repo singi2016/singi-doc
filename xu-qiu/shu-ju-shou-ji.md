@@ -7,6 +7,31 @@
 
 ## 数据库设计
 
+---
+> 20180905
+
+### 地铁线路 metro_lines
+
+city_id|int:10|城市id
+name|string:255|名称
+code|string:255|代码
+alias|string:255|别名
+
+### 地铁站点 metro_stations
+
+metro_line_id|int:10|地铁线路id
+name|string:255|名称
+code|string:255|代码
+
+### 地铁站点 metro_station_exits
+
+metro_station_id|int:10|地铁站点id
+name|string:255|名称
+note|string:255|备注
+
+---
+> 20180830
+
 ### 大洲 continent
 
 ID|备注

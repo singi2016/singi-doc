@@ -2,6 +2,13 @@
 
 ## php 基础函数应用
 
+### Json对象转成php可以识别的Json格式(json_decode可以使用的字符串)
+
+```
+function JsObjToJsonDecodeEnableStr($js_obj_str){
+    return preg_replace(["/([a-zA-Z_]+[a-zA-Z0-9_]*)\s*:/", "/:\s*'(.*?)'/"], ['"\1":', ': "\1"'], $js_obj_str);
+}
+```
 
 ### 1. stdClass类转array
 ```php
