@@ -10,7 +10,7 @@
 ---
 > 20180907
 
-### 地铁线路 metro_lines
+### 地铁线路 airports
 
 country_id|int:10|国家id
 city_name|varchar:255|城市
