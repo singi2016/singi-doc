@@ -8,6 +8,15 @@
 ## 数据库设计
 
 ---
+> 20180907
+
+### 地铁线路 metro_lines
+
+country_id|int:10|国家id
+city_name|varchar:255|城市
+name|string:255|名称
+
+---
 > 20180905
 
 ### 地铁线路 metro_lines
