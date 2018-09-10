@@ -85,6 +85,7 @@
   * [php命令行执行sql](mysql/phpming-ling-xing-zhi-xing-sql.md)
   * [备份以及还原](mysql/bei-fen-yi-ji-huan-yuan.md)
   * [PDO](mysql/pdo.md)
+  * [优化方法](mysql/you-hua-fang-fa.md)
 * [centos7](centos7.md)
   * [vmware中按照centos7连不上网](centos7/vmwarezhong-an-zhao-centos7-lian-bu-shang-wang.md)
   * [yum按照软件提示被锁](centos7/yuman-zhao-ruan-jian-ti-shi-bei-suo.md)
