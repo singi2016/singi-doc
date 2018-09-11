@@ -8,6 +8,17 @@
 ## 数据库设计
 
 ---
+> 20180911
+
+### 银行
+
+字段|类型|备注
+-|-|-
+country_id|int:10|国家id
+name|string:255|名称
+code|string:255|代码
+
+---
 > 20180907
 
 ### 机场 airports
@@ -38,7 +49,7 @@ metro_line_id|int:10|地铁线路id
 name|string:255|名称
 code|string:255|代码
 
-### 地铁站点 metro_station_exits
+### 地铁站点出口 metro_station_exits
 
 字段|类型|备注
 -|-|-
