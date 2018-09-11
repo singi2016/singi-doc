@@ -10,8 +10,10 @@
 ---
 > 20180907
 
-### 地铁线路 airports
+### 机场 airports
 
+字段|类型|备注
+-|-|-
 country_id|int:10|国家id
 city_name|varchar:255|城市
 name|string:255|名称
@@ -21,6 +23,8 @@ name|string:255|名称
 
 ### 地铁线路 metro_lines
 
+字段|类型|备注
+-|-|-
 city_id|int:10|城市id
 name|string:255|名称
 code|string:255|代码
@@ -28,12 +32,16 @@ alias|string:255|别名
 
 ### 地铁站点 metro_stations
 
+字段|类型|备注
+-|-|-
 metro_line_id|int:10|地铁线路id
 name|string:255|名称
 code|string:255|代码
 
 ### 地铁站点 metro_station_exits
 
+字段|类型|备注
+-|-|-
 metro_station_id|int:10|地铁站点id
 name|string:255|名称
 note|string:255|备注
