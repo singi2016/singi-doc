@@ -19,7 +19,7 @@ class Rsa
 
 ## 公钥加密
 
-> 明文加密时的长度为 公钥-11
+> 明文加密时的长度为 [公钥-11]
 
 ```
 openssl_private_decrypt($data, $decrypted, $publicKey);
