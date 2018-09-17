@@ -5,10 +5,8 @@
 ```
 class Rsa
 {
-    public $privateKey = '';
-
-    public $publicKey = '';
-
+    public $privateKey;
+    public $publicKey;
     public function __construct()
     {
         $resource = openssl_pkey_new();
