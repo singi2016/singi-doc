@@ -29,5 +29,4 @@ openssl_private_decrypt($data, $decrypted, $publicKey);
 
 ```
 openssl_private_decrypt($data, $decrypted, $privateKey);
-
 ```
