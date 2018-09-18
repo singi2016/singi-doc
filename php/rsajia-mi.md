@@ -19,14 +19,28 @@ class Rsa
 
 ## 公钥加密
 
-> 明文加密时的长度为[公钥-11],过长会加密失败
+> 明文加密时的长度为[2048/8-11]=245,过长会加密失败
 
 ```
-openssl_private_decrypt($data, $decrypted, $publicKey);
+function encrypt($originalData){
+        $crypto = '';
+        foreach (str_split($originalData, 245) as $chunk) {
+            openssl_public_encrypt($chunk, $encryptData, $this->rsaPublicKey);
+            $crypto .= $encryptData;
+        }
+        return base64_encode($crypto);
+    }
 ```
 
 ## 私钥解密
 
 ```
-openssl_private_decrypt($data, $decrypted, $privateKey);
+function decrypt($encryptData){
+    $crypto = '';
+    foreach (str_split(base64_decode($encryptData), 256) as $chunk) {
+        openssl_private_decrypt($chunk, $decryptData, $this->rsaPrivateKey);
+        $crypto .= $decryptData;
+    }
+    return $crypto;
+}
 ```
