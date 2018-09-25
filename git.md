@@ -1,10 +1,37 @@
 # git
 
+## 查看某几次提交的文件变动
+
+> `HEAD`表示当前提交
+> `HEAD~1`表示倒数第1次提交
+> `HEAD~3`表示倒数第3次提交
+
+> 列出倒数第1次提交到最新1次提交的文件变动
+
+```
+git diff --name-status $(git rev-parse HEAD) $(git rev-parse HEAD~1)
+```
+
 ## 打包某两次提交的代码
+
+> 打包倒数第1次提交到最新1次提交的代码
+
+```
+git archive -o ./latest-$(git rev-parse --short HEAD)-$(git rev-parse --short HEAD~1).zip $(git rev-parse HEAD) $(git diff --name-only $(git rev-parse HEAD) $(git rev-parse HEAD~1) --diff-filter=d)
+```
+
+### 方法1
 
 ```
 git diff --name-only oldcommitID lastcommitID| xargs tar -jcvf filename.tar.zip
 ```
+
+### 方法2
+
+```
+git archive -o ./latest-$(git rev-parse --short HEAD~3)-$(git rev-parse --short HEAD).zip $(git rev-parse HEAD~3) $(git diff --name-only $(git rev-parse HEAD~3) $(git rev-parse HEAD) --diff-filter=d )
+
+``` 
 
 ## 本地仓库关联远程仓库
 
