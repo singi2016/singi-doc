@@ -2,7 +2,7 @@
 
 ```
 //本日
-$today_start_int = time();
+$today_start_int = strtotime(date('Y-m-d'));
 $today_end_int = strtotime("+1 day");
 //本周
 $week_start_int = strtotime("last Mon");
