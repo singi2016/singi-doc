@@ -16,3 +16,9 @@ function get($str,$separator){
 `调用` : `getEndBySeparator('http://ob0ci39pv.bkt.clouddn.com/1474613744女03前弓步-动作要`领.mp4','/')`
 
 `输出` : `1474613744女03前弓步-动作要领.mp4`
+
+#### 判断字符是中文
+
+```
+preg_match('/^[\x{4e00}-\x{9fa5}]+$/u',$str_i)
+```
