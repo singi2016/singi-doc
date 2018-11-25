@@ -112,7 +112,7 @@
   * [小说](allsingiblogtop/xiao-shuo.md)
   * [游戏](allsingiblogtop/you-xi.md)
     * [策略](allsingiblogtop/you-xi/ce-lve.md)
-    * 射击
+    * [射击](allsingiblogtop/you-xi/she-ji.md)
     * [动作ACT](allsingiblogtop/you-xi/dong-zuo-act.md)
     * [RPG](allsingiblogtop/you-xi/rpg.md)
 * [常用框架](chang-yong-kuang-jia.md)
