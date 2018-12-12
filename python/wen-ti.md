@@ -15,3 +15,10 @@ from helloworld import Helloword
 ```py
 with open(file_name, 'w',encoding='utf8') as file_object:
 ```
+
+3. 判断文件是否存在
+
+```py
+import os
+os.path.exists(path)
+```
