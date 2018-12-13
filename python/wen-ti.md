@@ -29,6 +29,8 @@ Traceback (most recent call last):
 
 ```
 
+将python安装在C盘，并且项目也建在C盘安装成功了
+
 ## 升级pip
 
 ```py
