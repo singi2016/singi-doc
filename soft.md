@@ -17,6 +17,8 @@
 ##开发环境搭建
 * `mamp`(mac)
 * `wamp`(win)
+* `laragon`(win)
+
 
 ##版本控制git(gui)
 * `tower`
