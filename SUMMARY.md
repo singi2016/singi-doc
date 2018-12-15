@@ -126,4 +126,6 @@
 * [ec-cube3.0.16](ec-cube3016.md)
 * [restful web api](restful-web-api.md)
 * [sinsun](sinsun.md)
+* [java](java.md)
+  * [配置环境变量](java/pei-zhi-huan-jing-bian-liang.md)
 
