@@ -91,6 +91,7 @@
   * [问题](android/wen-ti.md)
   * [安装](android/an-zhuang.md)
   * [环境变量配置](android/huan-jing-bian-liang-pei-zhi.md)
+  * [在线更新SDK](android/androidzai-xian-geng-xin-sdk-de-fang-6cd528-shi-yong-guo-nei-jing-50cf29.md)
 * [mysql](mysql.md)
   * [创建用户以及权限](mysql/chuang-jian-yong-hu-yi-ji-quan-xian.md)
   * [sql](mysql/sql.md)
