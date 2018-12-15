@@ -1,12 +1,12 @@
 # 配置环境变量
 
-> 下载好`sdk`，并安装完成
+> 下载好`jdk`，并安装完成
 > 以下操作在win10上进行
 
 ## 假设路径
 
 ```
-F:\soft\javasdk  //sdk
+F:\soft\javasdk  //jdk
 F:\soft\javajre  //jre
 ```
 
