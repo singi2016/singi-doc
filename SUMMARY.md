@@ -63,6 +63,7 @@
   * [设计原则](she_ji_yuan_ze.md)
 * [python](python.md)
   * [问题](python/wen-ti.md)
+  * [可视化](python/ke-shi-hua.md)
 * [骑行](ride.md)
   * [桂林-永福](guilin-yongfu.md)
   * [桂林-龙胜](gui_6797-_long_sheng.md)

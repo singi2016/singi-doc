@@ -2,4 +2,5 @@
 
 ## 目录
 
-1. [问题](python/wen-ti.md)
+- [问题](python/wen-ti.md)
+- [可视化](python/ke-shi-hua.md) 
