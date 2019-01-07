@@ -21,19 +21,15 @@ function getPublicKeyAndPrivateKey(){
 
 ```
 /**
- * rsa加密,每245个未加密字符加密后的长度为366个字节
- * POST最大为8M的话,最多可发送5.3M字节数据
+ * 公钥加密
  * @param $plaintext
  * @param $publicKey
  * @return string
  */
-function rsa_encrypt($plaintext,$publicKey){
-    //公钥加密
-    $crypted_length = 245;//明文分段加密长度为245个字符(2048/8)
+function encryptWithPublicKey($plaintext,$publicKey){
     $crypto = '';
     if ($plaintext){
-        $plaintext = json_encode($plaintext);
-        foreach (str_split($plaintext, $crypted_length) as $chunk) {
+        foreach (str_split($plaintext, 245) as $chunk) {
             openssl_public_encrypt($chunk, $encryptData, $publicKey);
             $crypto .= $encryptData;
         }
@@ -59,5 +55,42 @@ function decryptWithPrivateKey($encryptData, $privateKey){
         $crypto .= $decryptData;
     }
     return $crypto;
+}
+```
+
+## 私钥签名
+
+```
+/**
+ * 私钥签名
+ * @param $original_str
+ * @param $private_key
+ * @return string
+ */
+function signWithPrivateKey($original_str, $private_key)
+{
+    openssl_sign($original_str, $sign, $private_key);
+    openssl_free_key($private_key);
+    $sign = base64_encode($sign);//最终的签名
+    return $sign;
+}
+```
+
+## 公钥验签
+
+```
+/**
+ * 公钥验签
+ * @param $original_str
+ * @param $sign
+ * @param $public_key
+ * @return bool
+ */
+function checkSignWithPublicKey($original_str, $sign, $public_key)
+{
+    $sign = base64_decode($sign);//得到的签名
+    $result = (bool)openssl_verify($original_str, $sign, $public_key);
+    openssl_free_key($public_key);
+    return $result;
 }
 ```
