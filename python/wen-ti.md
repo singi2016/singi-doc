@@ -1,6 +1,15 @@
 # 问题
 
-## 
+## `scrapy crawl quotes`报错
+
+```
+ModuleNotFoundError: No module named 'win32api'
+```
+
+解决方法
+```
+pip install pypiwin32
+```
 
 ## pip安装pygame遇到`ValueError: path is on mount 'F:', start on mount 'C:'
 `
