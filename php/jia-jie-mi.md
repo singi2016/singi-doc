@@ -16,19 +16,32 @@ function aes_encript($plaintext ,$key){
 }
 
 /**
- * 解密
+ * AES解密
+ * @param $ciphertext
+ * @param string $key
+ * @param string $cipher
+ * @return string
  */
-function aes_decript($ciphertext,$key){
+function decryptAes($ciphertext, $key='ebg.conzhu.net',$cipher='AES-256-CBC'){
     $c = base64_decode($ciphertext);
-    $ivlen = openssl_cipher_iv_length($cipher="AES-256-CBC");
+    $ivlen = openssl_cipher_iv_length($cipher);
     $iv = substr($c, 0, $ivlen);
     $hmac = substr($c, $ivlen, $sha2len=32);
     $ciphertext_raw = substr($c, $ivlen+$sha2len);
     $original_plaintext = openssl_decrypt($ciphertext_raw, $cipher, $key, $options=OPENSSL_RAW_DATA, $iv);
     $calcmac = hash_hmac('sha256', $ciphertext_raw, $key, $as_binary=true);
-    if (hash_equals($hmac, $calcmac))
-    {
-        return $original_plaintext;
+    if (function_exists('hash_equals')){
+        if (hash_equals($hmac, $calcmac)){
+            return $original_plaintext;
+        }else{
+            return false;
+        }
+    }else{
+        if ($hmac === $calcmac){
+            return $original_plaintext;
+        }else{
+            return false;
+        }
     }
 }
 ```
