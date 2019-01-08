@@ -7,8 +7,8 @@
  * 加密
  */
 
-function aes_encript($plaintext ,$key){
-    $ivlen = openssl_cipher_iv_length($cipher="AES-256-CBC");
+function aes_encript($plaintext ,$key='ebg.conzhu.net', $cipher='AES-256-CBC'){
+    $ivlen = openssl_cipher_iv_length($cipher);
     $iv = openssl_random_pseudo_bytes($ivlen);
     $ciphertext_raw = openssl_encrypt($plaintext, $cipher, $key, $options=OPENSSL_RAW_DATA, $iv);
     $hmac = hash_hmac('sha256', $ciphertext_raw, $key, $as_binary=true);
@@ -22,7 +22,7 @@ function aes_encript($plaintext ,$key){
  * @param string $cipher
  * @return string
  */
-function decryptAes($ciphertext, $key='ebg.conzhu.net',$cipher='AES-256-CBC'){
+function aes_decrypt($ciphertext, $key='ebg.conzhu.net',$cipher='AES-256-CBC'){
     $c = base64_decode($ciphertext);
     $ivlen = openssl_cipher_iv_length($cipher);
     $iv = substr($c, 0, $ivlen);
