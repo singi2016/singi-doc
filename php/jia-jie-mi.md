@@ -4,7 +4,7 @@
 
 ```
 /**
- * 加密
+ * AES加密
  */
 
 function aes_encript($plaintext ,$key='ebg.conzhu.net', $cipher='AES-256-CBC'){
