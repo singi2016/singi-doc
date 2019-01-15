@@ -2,6 +2,10 @@
 
 ## 如果git时输错密码，导致clone不下来
 
+```
+fatal: authentication failed for 'http://xxx'
+```
+
 `WINDOWS`：打开`凭证管理器`找到对应账号密码修改再试即可
 
 ## 查看某几次提交的文件变动
