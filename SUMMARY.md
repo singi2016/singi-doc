@@ -108,6 +108,7 @@
   * [vmware中按照centos7连不上网](centos7/vmwarezhong-an-zhao-centos7-lian-bu-shang-wang.md)
   * [yum按照软件提示被锁](centos7/yuman-zhao-ruan-jian-ti-shi-bei-suo.md)
   * [crontab](centos7/crontab.md)
+  * [question](centos7/question.md)
 * [需求](xu-qiu.md)
   * [猜一个数字](xu-qiu/cai-zi-you-xi.md)
   * [数据收集](xu-qiu/shu-ju-shou-ji.md)
