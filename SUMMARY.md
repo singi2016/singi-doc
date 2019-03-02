@@ -15,7 +15,6 @@
     * [ejs](ejs.md)
 * [php](php.md)
   * [function](php/function.md)
-    * [array](php/function/array.md)
   * [tp3](php/tp3.md)
     * [autoload](php/autoload.md)
     * [phpmailer](php/phpmailer.md)
