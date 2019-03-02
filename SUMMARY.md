@@ -54,6 +54,7 @@
   * [加解密](php/jia-jie-mi.md)
   * [RSA加密](php/rsajia-mi.md)
   * [获取日期](php/huo-qu-ri-qi.md)
+  * [安装PHP扩展](php/an-zhuang-php-kuo-zhan.md)
 * [bootstrap](bootstrap.md)
   * [bootstrap-table](bootstrap/bootstrap-table.md)
   * [bootstarp\_template](bootstarptemplate.md)
