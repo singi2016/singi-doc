@@ -65,6 +65,5 @@ function encrypt_3des($data, $key)
  */
 function decrypt_3des($data, $key)
 {
-    $decrypt_text = openssl_decrypt(base64_decode($data), "des-ede3", $key);
-    return $decrypt_text;
+    return openssl_decrypt(base64_decode($data), "des-ede3", $key);
 }
